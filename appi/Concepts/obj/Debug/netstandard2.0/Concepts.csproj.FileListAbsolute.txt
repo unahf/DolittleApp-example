@@ -1,0 +1,11 @@
+/Users/woksin/Documents/Dolittle/Boilerplates/CSharp.BoundedContext/Content/Concepts/bin/Debug/netstandard2.0/Concepts.deps.json
+/Users/woksin/Documents/Dolittle/Boilerplates/CSharp.BoundedContext/Content/Concepts/bin/Debug/netstandard2.0/Concepts.dll
+/Users/woksin/Documents/Dolittle/Boilerplates/CSharp.BoundedContext/Content/Concepts/bin/Debug/netstandard2.0/Concepts.pdb
+/Users/woksin/Documents/Dolittle/Boilerplates/CSharp.BoundedContext/Content/Concepts/bin/Debug/netstandard2.0/Concepts.xml
+/Users/woksin/Documents/Dolittle/Boilerplates/CSharp.BoundedContext/Content/Concepts/obj/Debug/netstandard2.0/Concepts.csprojAssemblyReference.cache
+/Users/woksin/Documents/Dolittle/Boilerplates/CSharp.BoundedContext/Content/Concepts/obj/Debug/netstandard2.0/Concepts.csproj.CoreCompileInputs.cache
+/Users/woksin/Documents/Dolittle/Boilerplates/CSharp.BoundedContext/Content/Concepts/obj/Debug/netstandard2.0/Concepts.AssemblyInfoInputs.cache
+/Users/woksin/Documents/Dolittle/Boilerplates/CSharp.BoundedContext/Content/Concepts/obj/Debug/netstandard2.0/Concepts.AssemblyInfo.cs
+/Users/woksin/Documents/Dolittle/Boilerplates/CSharp.BoundedContext/Content/Concepts/obj/Debug/netstandard2.0/Concepts.dll
+/Users/woksin/Documents/Dolittle/Boilerplates/CSharp.BoundedContext/Content/Concepts/obj/Debug/netstandard2.0/Concepts.xml
+/Users/woksin/Documents/Dolittle/Boilerplates/CSharp.BoundedContext/Content/Concepts/obj/Debug/netstandard2.0/Concepts.pdb

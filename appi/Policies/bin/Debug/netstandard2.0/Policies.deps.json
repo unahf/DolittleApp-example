@@ -1,0 +1,2327 @@
+{
+  "runtimeTarget": {
+    "name": ".NETStandard,Version=v2.0/",
+    "signature": "79a50354df6288ad38510310b60b06be9fe60d65"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETStandard,Version=v2.0": {},
+    ".NETStandard,Version=v2.0/": {
+      "Policies/1.0.0": {
+        "dependencies": {
+          "Concepts": "1.0.0",
+          "Dolittle.SDK": "2.0.0-alpha2.301",
+          "Events": "1.0.0",
+          "NETStandard.Library": "2.0.3"
+        },
+        "runtime": {
+          "Policies.dll": {}
+        }
+      },
+      "Dolittle.Applications/2.0.0-alpha2.203": {
+        "dependencies": {
+          "Dolittle.Artifacts": "2.0.0-alpha2.203",
+          "Dolittle.Collections": "2.0.0-alpha2.203",
+          "Dolittle.Concepts": "2.0.0-alpha2.203",
+          "Dolittle.Strings": "2.0.0-alpha2.203"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Dolittle.Applications.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
+        }
+      },
+      "Dolittle.Artifacts/2.0.0-alpha2.203": {
+        "dependencies": {
+          "Dolittle.Concepts": "2.0.0-alpha2.203",
+          "Dolittle.Types": "2.0.0-alpha2.203"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Dolittle.Artifacts.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
+        }
+      },
+      "Dolittle.Assemblies/2.0.0-alpha2.203": {
+        "dependencies": {
+          "Dolittle.IO": "2.0.0-alpha2.203",
+          "Dolittle.Lifecycle": "2.0.0-alpha2.203",
+          "Dolittle.Logging": "2.0.0-alpha2.203",
+          "Dolittle.Reflection": "2.0.0-alpha2.203",
+          "Dolittle.Specifications": "2.0.0-alpha2.203",
+          "Microsoft.CSharp": "4.3.0",
+          "Microsoft.DotNet.PlatformAbstractions": "2.0.4",
+          "Microsoft.Extensions.DependencyModel": "2.0.4",
+          "System.Runtime.Loader": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Dolittle.Assemblies.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
+        }
+      },
+      "Dolittle.Booting/2.0.0-alpha2.203": {
+        "dependencies": {
+          "Dolittle.Assemblies": "2.0.0-alpha2.203",
+          "Dolittle.Collections": "2.0.0-alpha2.203",
+          "Dolittle.DependencyInversion": "2.0.0-alpha2.203",
+          "Dolittle.Execution": "2.0.0-alpha2.203",
+          "Dolittle.IO": "2.0.0-alpha2.203",
+          "Dolittle.Logging": "2.0.0-alpha2.203",
+          "Dolittle.Scheduling": "2.0.0-alpha2.203",
+          "Dolittle.Time": "2.0.0-alpha2.203",
+          "Dolittle.Types": "2.0.0-alpha2.203",
+          "Microsoft.Extensions.Logging": "2.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Dolittle.Booting.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
+        }
+      },
+      "Dolittle.Collections/2.0.0-alpha2.203": {
+        "dependencies": {
+          "NETStandard.Library": "2.0.3"
+        },
+        "runtime": {
+          "lib/netstandard1.4/Dolittle.Collections.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
+        }
+      },
+      "Dolittle.Concepts/2.0.0-alpha2.203": {
+        "dependencies": {
+          "Dolittle.Reflection": "2.0.0-alpha2.203",
+          "Microsoft.CSharp": "4.3.0",
+          "System.Dynamic.Runtime": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Dolittle.Concepts.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
+        }
+      },
+      "Dolittle.Concepts.Serialization.Json/2.0.0-alpha2.203": {
+        "dependencies": {
+          "Dolittle.Concepts": "2.0.0-alpha2.203",
+          "Dolittle.Serialization.Json": "2.0.0-alpha2.203"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Dolittle.Concepts.Serialization.Json.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
+        }
+      },
+      "Dolittle.Configuration/2.0.0-alpha2.203": {
+        "dependencies": {
+          "Dolittle.Booting": "2.0.0-alpha2.203",
+          "Dolittle.Collections": "2.0.0-alpha2.203",
+          "Dolittle.Concepts": "2.0.0-alpha2.203",
+          "Dolittle.DependencyInversion": "2.0.0-alpha2.203",
+          "Dolittle.Immutability": "2.0.0-alpha2.203",
+          "Dolittle.Reflection": "2.0.0-alpha2.203",
+          "Dolittle.Types": "2.0.0-alpha2.203"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Dolittle.Configuration.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
+        }
+      },
+      "Dolittle.DependencyInversion/2.0.0-alpha2.203": {
+        "dependencies": {
+          "Dolittle.Assemblies": "2.0.0-alpha2.203",
+          "Dolittle.Collections": "2.0.0-alpha2.203",
+          "Dolittle.Lifecycle": "2.0.0-alpha2.203",
+          "Dolittle.Reflection": "2.0.0-alpha2.203"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Dolittle.DependencyInversion.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
+        }
+      },
+      "Dolittle.Dynamic/2.0.0-alpha2.203": {
+        "dependencies": {
+          "Dolittle.Concepts": "2.0.0-alpha2.203",
+          "Dolittle.Immutability": "2.0.0-alpha2.203",
+          "Microsoft.CSharp": "4.3.0",
+          "System.Dynamic.Runtime": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Dolittle.Dynamic.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
+        }
+      },
+      "Dolittle.Execution/2.0.0-alpha2.203": {
+        "dependencies": {
+          "Dolittle.Applications": "2.0.0-alpha2.203",
+          "Dolittle.Concepts": "2.0.0-alpha2.203",
+          "Dolittle.DependencyInversion": "2.0.0-alpha2.203",
+          "Dolittle.Security": "2.0.0-alpha2.203",
+          "Dolittle.Tenancy": "2.0.0-alpha2.203",
+          "System.Security.Claims": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Dolittle.Execution.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
+        }
+      },
+      "Dolittle.Globalization/2.0.0-alpha2.203": {
+        "runtime": {
+          "lib/netstandard2.0/Dolittle.Globalization.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
+        }
+      },
+      "Dolittle.Immutability/2.0.0-alpha2.203": {
+        "runtime": {
+          "lib/netstandard2.0/Dolittle.Immutability.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
+        }
+      },
+      "Dolittle.IO/2.0.0-alpha2.203": {
+        "dependencies": {
+          "NETStandard.Library": "2.0.3"
+        },
+        "runtime": {
+          "lib/netstandard1.4/Dolittle.IO.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
+        }
+      },
+      "Dolittle.Lifecycle/2.0.0-alpha2.203": {
+        "runtime": {
+          "lib/netstandard2.0/Dolittle.Lifecycle.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
+        }
+      },
+      "Dolittle.Logging/2.0.0-alpha2.203": {
+        "dependencies": {
+          "Dolittle.Collections": "2.0.0-alpha2.203",
+          "Dolittle.Lifecycle": "2.0.0-alpha2.203",
+          "Dolittle.Reflection": "2.0.0-alpha2.203",
+          "Dolittle.Strings": "2.0.0-alpha2.203",
+          "Microsoft.CSharp": "4.3.0",
+          "Microsoft.Extensions.Logging.Abstractions": "2.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Dolittle.Logging.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
+        }
+      },
+      "Dolittle.PropertyBags/2.0.0-alpha2.203": {
+        "dependencies": {
+          "Dolittle.Concepts": "2.0.0-alpha2.203",
+          "Dolittle.Dynamic": "2.0.0-alpha2.203",
+          "Dolittle.Lifecycle": "2.0.0-alpha2.203",
+          "Dolittle.Reflection": "2.0.0-alpha2.203",
+          "Dolittle.Strings": "2.0.0-alpha2.203",
+          "Dolittle.Time": "2.0.0-alpha2.203",
+          "Dolittle.Types": "2.0.0-alpha2.203"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Dolittle.PropertyBags.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
+        }
+      },
+      "Dolittle.Reflection/2.0.0-alpha2.203": {
+        "dependencies": {
+          "System.Reflection.Emit": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Dolittle.Reflection.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
+        }
+      },
+      "Dolittle.ResourceTypes/2.0.0-alpha2.203": {
+        "dependencies": {
+          "Dolittle.Concepts": "2.0.0-alpha2.203",
+          "Dolittle.Tenancy": "2.0.0-alpha2.203"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Dolittle.ResourceTypes.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
+        }
+      },
+      "Dolittle.ResourceTypes.Configuration/2.0.0-alpha2.203": {
+        "dependencies": {
+          "Dolittle.Collections": "2.0.0-alpha2.203",
+          "Dolittle.Concepts": "2.0.0-alpha2.203",
+          "Dolittle.Configuration": "2.0.0-alpha2.203",
+          "Dolittle.Execution": "2.0.0-alpha2.203",
+          "Dolittle.Lifecycle": "2.0.0-alpha2.203",
+          "Dolittle.ResourceTypes": "2.0.0-alpha2.203",
+          "Dolittle.Serialization.Json": "2.0.0-alpha2.203",
+          "Dolittle.Tenancy": "2.0.0-alpha2.203",
+          "Dolittle.Types": "2.0.0-alpha2.203",
+          "Newtonsoft.Json": "11.0.2"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Dolittle.ResourceTypes.Configuration.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
+        }
+      },
+      "Dolittle.Rules/2.0.0-alpha2.203": {
+        "runtime": {
+          "lib/netstandard2.0/Dolittle.Rules.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
+        }
+      },
+      "Dolittle.Runtime.Applications.Configuration/2.0.0-alpha2.169": {
+        "dependencies": {
+          "Dolittle.Applications": "2.0.0-alpha2.203",
+          "Dolittle.Booting": "2.0.0-alpha2.203",
+          "Dolittle.Concepts.Serialization.Json": "2.0.0-alpha2.203",
+          "Dolittle.Configuration": "2.0.0-alpha2.203",
+          "Dolittle.Execution": "2.0.0-alpha2.203",
+          "Dolittle.ResourceTypes.Configuration": "2.0.0-alpha2.203",
+          "Dolittle.Serialization.Json": "2.0.0-alpha2.203"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Dolittle.Runtime.Applications.Configuration.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
+        }
+      },
+      "Dolittle.Runtime.Commands/2.0.0-alpha2.169": {
+        "dependencies": {
+          "Dolittle.Applications": "2.0.0-alpha2.203",
+          "Dolittle.Execution": "2.0.0-alpha2.203",
+          "Dolittle.Runtime.Transactions": "2.0.0-alpha2.169",
+          "Dolittle.Runtime.Validation": "2.0.0-alpha2.169"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Dolittle.Runtime.Commands.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
+        }
+      },
+      "Dolittle.Runtime.Commands.Coordination/2.0.0-alpha2.169": {
+        "dependencies": {
+          "Dolittle.Applications": "2.0.0-alpha2.203",
+          "Dolittle.Globalization": "2.0.0-alpha2.203",
+          "Dolittle.Runtime.Commands": "2.0.0-alpha2.169",
+          "Dolittle.Runtime.Commands.Handling": "2.0.0-alpha2.169",
+          "Dolittle.Runtime.Commands.Security": "2.0.0-alpha2.169",
+          "Dolittle.Runtime.Commands.Validation": "2.0.0-alpha2.169",
+          "Dolittle.Runtime.Events": "2.0.0-alpha2.169",
+          "Dolittle.Runtime.Transactions": "2.0.0-alpha2.169"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Dolittle.Runtime.Commands.Coordination.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
+        }
+      },
+      "Dolittle.Runtime.Commands.Handling/2.0.0-alpha2.169": {
+        "dependencies": {
+          "Dolittle.Applications": "2.0.0-alpha2.203",
+          "Dolittle.Lifecycle": "2.0.0-alpha2.203",
+          "Dolittle.Runtime.Commands": "2.0.0-alpha2.169",
+          "Dolittle.Types": "2.0.0-alpha2.203"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Dolittle.Runtime.Commands.Handling.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
+        }
+      },
+      "Dolittle.Runtime.Commands.Security/2.0.0-alpha2.169": {
+        "dependencies": {
+          "Dolittle.Runtime.Commands": "2.0.0-alpha2.169",
+          "Dolittle.Security": "2.0.0-alpha2.203"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Dolittle.Runtime.Commands.Security.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
+        }
+      },
+      "Dolittle.Runtime.Commands.Validation/2.0.0-alpha2.169": {
+        "dependencies": {
+          "Dolittle.Runtime.Commands": "2.0.0-alpha2.169",
+          "Dolittle.Runtime.Validation": "2.0.0-alpha2.169"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Dolittle.Runtime.Commands.Validation.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
+        }
+      },
+      "Dolittle.Runtime.Events/2.0.0-alpha2.169": {
+        "dependencies": {
+          "Dolittle.Applications": "2.0.0-alpha2.203",
+          "Dolittle.Artifacts": "2.0.0-alpha2.203",
+          "Dolittle.Booting": "2.0.0-alpha2.203",
+          "Dolittle.Collections": "2.0.0-alpha2.203",
+          "Dolittle.Concepts": "2.0.0-alpha2.203",
+          "Dolittle.Concepts.Serialization.Json": "2.0.0-alpha2.203",
+          "Dolittle.DependencyInversion": "2.0.0-alpha2.203",
+          "Dolittle.Lifecycle": "2.0.0-alpha2.203",
+          "Dolittle.PropertyBags": "2.0.0-alpha2.203",
+          "Dolittle.ResourceTypes": "2.0.0-alpha2.203",
+          "Dolittle.ResourceTypes.Configuration": "2.0.0-alpha2.203",
+          "Dolittle.Runtime.Applications.Configuration": "2.0.0-alpha2.169",
+          "Dolittle.Runtime.Server": "2.0.0-alpha2.169",
+          "Dolittle.Runtime.Tenancy": "2.0.0-alpha2.169",
+          "Dolittle.Runtime.Transactions": "2.0.0-alpha2.169",
+          "Dolittle.Serialization.Json": "2.0.0-alpha2.203",
+          "Dolittle.Serialization.Protobuf": "2.0.0-alpha2.203",
+          "Dolittle.Time": "2.0.0-alpha2.203",
+          "Google.Protobuf": "3.5.1",
+          "Google.Protobuf.Tools": "3.5.1",
+          "Grpc": "1.8.0",
+          "Grpc.Tools": "1.8.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Dolittle.Runtime.Events.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
+        }
+      },
+      "Dolittle.Runtime.Queries/2.0.0-alpha2.169": {
+        "dependencies": {
+          "Dolittle.DependencyInversion": "2.0.0-alpha2.203",
+          "Dolittle.Reflection": "2.0.0-alpha2.203",
+          "Dolittle.Runtime.ReadModels": "2.0.0-alpha2.169",
+          "Dolittle.Types": "2.0.0-alpha2.203"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Dolittle.Runtime.Queries.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
+        }
+      },
+      "Dolittle.Runtime.ReadModels/2.0.0-alpha2.169": {
+        "dependencies": {
+          "Dolittle.ResourceTypes": "2.0.0-alpha2.203",
+          "Dolittle.Runtime.Validation": "2.0.0-alpha2.169"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Dolittle.Runtime.ReadModels.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
+        }
+      },
+      "Dolittle.Runtime.Server/2.0.0-alpha2.169": {
+        "dependencies": {
+          "Dolittle.Booting": "2.0.0-alpha2.203",
+          "Dolittle.Concepts.Serialization.Json": "2.0.0-alpha2.203",
+          "Dolittle.Configuration": "2.0.0-alpha2.203",
+          "Dolittle.Serialization.Json": "2.0.0-alpha2.203",
+          "Google.Protobuf": "3.5.1",
+          "Google.Protobuf.Tools": "3.5.1",
+          "Grpc": "1.8.0",
+          "Grpc.Tools": "1.8.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Dolittle.Runtime.Server.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
+        }
+      },
+      "Dolittle.Runtime.Tenancy/2.0.0-alpha2.169": {
+        "dependencies": {
+          "Dolittle.Concepts.Serialization.Json": "2.0.0-alpha2.203",
+          "Dolittle.Configuration": "2.0.0-alpha2.203",
+          "Dolittle.Serialization.Json": "2.0.0-alpha2.203",
+          "Dolittle.Tenancy": "2.0.0-alpha2.203",
+          "Dolittle.Types": "2.0.0-alpha2.203"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Dolittle.Runtime.Tenancy.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
+        }
+      },
+      "Dolittle.Runtime.Transactions/2.0.0-alpha2.169": {
+        "dependencies": {
+          "Dolittle.Concepts": "2.0.0-alpha2.203"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Dolittle.Runtime.Transactions.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
+        }
+      },
+      "Dolittle.Runtime.Validation/2.0.0-alpha2.169": {
+        "dependencies": {
+          "Dolittle.Reflection": "2.0.0-alpha2.203",
+          "Dolittle.Rules": "2.0.0-alpha2.203",
+          "Dolittle.Types": "2.0.0-alpha2.203"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Dolittle.Runtime.Validation.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
+        }
+      },
+      "Dolittle.Scheduling/2.0.0-alpha2.203": {
+        "dependencies": {
+          "Dolittle.Collections": "2.0.0-alpha2.203"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Dolittle.Scheduling.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
+        }
+      },
+      "Dolittle.SDK/2.0.0-alpha2.301": {
+        "dependencies": {
+          "Dolittle.Concepts.Serialization.Json": "2.0.0-alpha2.203",
+          "Dolittle.SDK.Applications": "2.0.0-alpha2.301",
+          "Dolittle.SDK.Applications.Configuration": "2.0.0-alpha2.301",
+          "Dolittle.SDK.Artifacts": "2.0.0-alpha2.301",
+          "Dolittle.SDK.Artifacts.Configuration": "2.0.0-alpha2.301",
+          "Dolittle.SDK.Commands": "2.0.0-alpha2.301",
+          "Dolittle.SDK.Commands.Coordination": "2.0.0-alpha2.301",
+          "Dolittle.SDK.Commands.Handling": "2.0.0-alpha2.301",
+          "Dolittle.SDK.Commands.Validation": "2.0.0-alpha2.301",
+          "Dolittle.SDK.Domain": "2.0.0-alpha2.301",
+          "Dolittle.SDK.Events": "2.0.0-alpha2.301",
+          "Dolittle.SDK.Events.Processing": "2.0.0-alpha2.301",
+          "Dolittle.SDK.Queries": "2.0.0-alpha2.301",
+          "Dolittle.SDK.ReadModels": "2.0.0-alpha2.301",
+          "Dolittle.SDK.Rules": "2.0.0-alpha2.301",
+          "Dolittle.SDK.Validation": "2.0.0-alpha2.301",
+          "Dolittle.Serialization.Json": "2.0.0-alpha2.203"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Dolittle.SDK.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
+        }
+      },
+      "Dolittle.SDK.Applications/2.0.0-alpha2.301": {
+        "dependencies": {
+          "Dolittle.Applications": "2.0.0-alpha2.203",
+          "Dolittle.Artifacts": "2.0.0-alpha2.203",
+          "Dolittle.SDK.Artifacts": "2.0.0-alpha2.301"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Dolittle.SDK.Applications.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
+        }
+      },
+      "Dolittle.SDK.Applications.Configuration/2.0.0-alpha2.301": {
+        "dependencies": {
+          "Dolittle.Applications": "2.0.0-alpha2.203",
+          "Dolittle.Booting": "2.0.0-alpha2.203",
+          "Dolittle.Concepts.Serialization.Json": "2.0.0-alpha2.203",
+          "Dolittle.Configuration": "2.0.0-alpha2.203",
+          "Dolittle.Execution": "2.0.0-alpha2.203",
+          "Dolittle.ResourceTypes.Configuration": "2.0.0-alpha2.203",
+          "Dolittle.Serialization.Json": "2.0.0-alpha2.203"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Dolittle.SDK.Applications.Configuration.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
+        }
+      },
+      "Dolittle.SDK.Artifacts/2.0.0-alpha2.301": {
+        "dependencies": {
+          "Dolittle.Artifacts": "2.0.0-alpha2.203",
+          "Dolittle.Lifecycle": "2.0.0-alpha2.203"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Dolittle.SDK.Artifacts.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
+        }
+      },
+      "Dolittle.SDK.Artifacts.Configuration/2.0.0-alpha2.301": {
+        "dependencies": {
+          "Dolittle.Applications": "2.0.0-alpha2.203",
+          "Dolittle.Booting": "2.0.0-alpha2.203",
+          "Dolittle.Concepts.Serialization.Json": "2.0.0-alpha2.203",
+          "Dolittle.Configuration": "2.0.0-alpha2.203",
+          "Dolittle.SDK.Artifacts": "2.0.0-alpha2.301",
+          "Dolittle.Serialization.Json": "2.0.0-alpha2.203"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Dolittle.SDK.Artifacts.Configuration.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
+        }
+      },
+      "Dolittle.SDK.Commands/2.0.0-alpha2.301": {
+        "runtime": {
+          "lib/netstandard2.0/Dolittle.SDK.Commands.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
+        }
+      },
+      "Dolittle.SDK.Commands.Coordination/2.0.0-alpha2.301": {
+        "dependencies": {
+          "Dolittle.Applications": "2.0.0-alpha2.203",
+          "Dolittle.Reflection": "2.0.0-alpha2.203",
+          "Dolittle.Runtime.Commands.Coordination": "2.0.0-alpha2.169",
+          "Dolittle.SDK.Artifacts": "2.0.0-alpha2.301",
+          "Dolittle.SDK.Commands": "2.0.0-alpha2.301",
+          "Dolittle.Serialization.Json": "2.0.0-alpha2.203",
+          "Dolittle.Types": "2.0.0-alpha2.203"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Dolittle.SDK.Commands.Coordination.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
+        }
+      },
+      "Dolittle.SDK.Commands.Handling/2.0.0-alpha2.301": {
+        "dependencies": {
+          "Dolittle.Applications": "2.0.0-alpha2.203",
+          "Dolittle.Runtime.Commands.Handling": "2.0.0-alpha2.169",
+          "Dolittle.SDK.Artifacts": "2.0.0-alpha2.301",
+          "Dolittle.SDK.Commands": "2.0.0-alpha2.301",
+          "Dolittle.Types": "2.0.0-alpha2.203"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Dolittle.SDK.Commands.Handling.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
+        }
+      },
+      "Dolittle.SDK.Commands.Validation/2.0.0-alpha2.301": {
+        "dependencies": {
+          "Dolittle.SDK.Validation": "2.0.0-alpha2.301"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Dolittle.SDK.Commands.Validation.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
+        }
+      },
+      "Dolittle.SDK.Domain/2.0.0-alpha2.301": {
+        "dependencies": {
+          "Dolittle.Runtime.Commands": "2.0.0-alpha2.169",
+          "Dolittle.Runtime.Commands.Coordination": "2.0.0-alpha2.169",
+          "Dolittle.Runtime.Events": "2.0.0-alpha2.169",
+          "Dolittle.SDK.Applications": "2.0.0-alpha2.301",
+          "Dolittle.SDK.Events": "2.0.0-alpha2.301"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Dolittle.SDK.Domain.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
+        }
+      },
+      "Dolittle.SDK.Events/2.0.0-alpha2.301": {
+        "dependencies": {
+          "Dolittle.Artifacts": "2.0.0-alpha2.203",
+          "Dolittle.Runtime.Events": "2.0.0-alpha2.169",
+          "Dolittle.SDK.Artifacts": "2.0.0-alpha2.301"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Dolittle.SDK.Events.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
+        }
+      },
+      "Dolittle.SDK.Events.Processing/2.0.0-alpha2.301": {
+        "dependencies": {
+          "Dolittle.Artifacts": "2.0.0-alpha2.203",
+          "Dolittle.Booting": "2.0.0-alpha2.203",
+          "Dolittle.Lifecycle": "2.0.0-alpha2.203",
+          "Dolittle.Runtime.Events": "2.0.0-alpha2.169",
+          "Dolittle.SDK.Applications": "2.0.0-alpha2.301",
+          "Dolittle.SDK.Artifacts.Configuration": "2.0.0-alpha2.301",
+          "Dolittle.SDK.Events": "2.0.0-alpha2.301"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Dolittle.SDK.Events.Processing.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
+        }
+      },
+      "Dolittle.SDK.Queries/2.0.0-alpha2.301": {
+        "dependencies": {
+          "Dolittle.Artifacts": "2.0.0-alpha2.203",
+          "Dolittle.Runtime.Queries": "2.0.0-alpha2.169",
+          "Dolittle.SDK.Artifacts": "2.0.0-alpha2.301"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Dolittle.SDK.Queries.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
+        }
+      },
+      "Dolittle.SDK.ReadModels/2.0.0-alpha2.301": {
+        "dependencies": {
+          "Dolittle.Artifacts": "2.0.0-alpha2.203",
+          "Dolittle.Runtime.ReadModels": "2.0.0-alpha2.169",
+          "Dolittle.SDK.Artifacts": "2.0.0-alpha2.301"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Dolittle.SDK.ReadModels.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
+        }
+      },
+      "Dolittle.SDK.Rules/2.0.0-alpha2.301": {
+        "dependencies": {
+          "Dolittle.Collections": "2.0.0-alpha2.203",
+          "Dolittle.DependencyInversion": "2.0.0-alpha2.203",
+          "Dolittle.Types": "2.0.0-alpha2.203"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Dolittle.SDK.Rules.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
+        }
+      },
+      "Dolittle.SDK.Validation/2.0.0-alpha2.301": {
+        "dependencies": {
+          "Dolittle.Runtime.Commands": "2.0.0-alpha2.169",
+          "Dolittle.Runtime.Commands.Validation": "2.0.0-alpha2.169",
+          "Dolittle.Runtime.Validation": "2.0.0-alpha2.169",
+          "Dolittle.SDK.Commands": "2.0.0-alpha2.301",
+          "Dolittle.SDK.Commands.Coordination": "2.0.0-alpha2.301",
+          "Dolittle.SDK.Commands.Handling": "2.0.0-alpha2.301",
+          "Dolittle.Types": "2.0.0-alpha2.203",
+          "FluentValidation": "7.1.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Dolittle.SDK.Validation.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
+        }
+      },
+      "Dolittle.Security/2.0.0-alpha2.203": {
+        "dependencies": {
+          "Dolittle.Concepts": "2.0.0-alpha2.203",
+          "Dolittle.Lifecycle": "2.0.0-alpha2.203",
+          "Dolittle.Types": "2.0.0-alpha2.203",
+          "System.Security.Claims": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Dolittle.Security.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
+        }
+      },
+      "Dolittle.Serialization.Json/2.0.0-alpha2.203": {
+        "dependencies": {
+          "Dolittle.Assemblies": "2.0.0-alpha2.203",
+          "Dolittle.DependencyInversion": "2.0.0-alpha2.203",
+          "Dolittle.PropertyBags": "2.0.0-alpha2.203",
+          "Dolittle.Reflection": "2.0.0-alpha2.203",
+          "Dolittle.Strings": "2.0.0-alpha2.203",
+          "Dolittle.Types": "2.0.0-alpha2.203",
+          "Newtonsoft.Json": "11.0.2"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Dolittle.Serialization.Json.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
+        }
+      },
+      "Dolittle.Serialization.Protobuf/2.0.0-alpha2.203": {
+        "dependencies": {
+          "Dolittle.Collections": "2.0.0-alpha2.203",
+          "Dolittle.Execution": "2.0.0-alpha2.203",
+          "Dolittle.Reflection": "2.0.0-alpha2.203",
+          "Dolittle.Types": "2.0.0-alpha2.203",
+          "Google.Protobuf": "3.5.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Dolittle.Serialization.Protobuf.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
+        }
+      },
+      "Dolittle.Specifications/2.0.0-alpha2.203": {
+        "dependencies": {
+          "Microsoft.CSharp": "4.3.0",
+          "NETStandard.Library": "2.0.3",
+          "System.Linq": "4.3.0",
+          "System.Linq.Expressions": "4.3.0",
+          "System.Linq.Queryable": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard1.4/Dolittle.Specifications.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
+        }
+      },
+      "Dolittle.Strings/2.0.0-alpha2.203": {
+        "runtime": {
+          "lib/netstandard2.0/Dolittle.Strings.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
+        }
+      },
+      "Dolittle.Tenancy/2.0.0-alpha2.203": {
+        "dependencies": {
+          "Dolittle.Concepts": "2.0.0-alpha2.203"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Dolittle.Tenancy.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
+        }
+      },
+      "Dolittle.Time/2.0.0-alpha2.203": {
+        "dependencies": {
+          "NETStandard.Library": "2.0.3"
+        },
+        "runtime": {
+          "lib/netstandard1.4/Dolittle.Time.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
+        }
+      },
+      "Dolittle.Types/2.0.0-alpha2.203": {
+        "dependencies": {
+          "Dolittle.Assemblies": "2.0.0-alpha2.203",
+          "Dolittle.DependencyInversion": "2.0.0-alpha2.203",
+          "Dolittle.Reflection": "2.0.0-alpha2.203",
+          "Dolittle.Scheduling": "2.0.0-alpha2.203",
+          "System.Threading.Tasks.Parallel": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Dolittle.Types.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
+        }
+      },
+      "FluentValidation/7.1.1": {
+        "dependencies": {
+          "NETStandard.Library": "2.0.3"
+        },
+        "runtime": {
+          "lib/netstandard1.0/FluentValidation.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.1.1.0"
+          }
+        }
+      },
+      "Google.Protobuf/3.5.1": {
+        "dependencies": {
+          "NETStandard.Library": "2.0.3"
+        },
+        "runtime": {
+          "lib/netstandard1.0/Google.Protobuf.dll": {
+            "assemblyVersion": "3.5.1.0",
+            "fileVersion": "3.5.1.0"
+          }
+        }
+      },
+      "Google.Protobuf.Tools/3.5.1": {},
+      "Grpc/1.8.0": {
+        "dependencies": {
+          "Grpc.Core": "1.8.0"
+        }
+      },
+      "Grpc.Core/1.8.0": {
+        "dependencies": {
+          "NETStandard.Library": "2.0.3",
+          "System.Interactive.Async": "3.1.1",
+          "System.Runtime.Loader": "4.3.0",
+          "System.Threading.Thread": "4.0.0",
+          "System.Threading.ThreadPool": "4.0.10"
+        },
+        "runtime": {
+          "lib/netstandard1.5/Grpc.Core.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.8.0.0"
+          }
+        }
+      },
+      "Grpc.Tools/1.8.0": {},
+      "Microsoft.CSharp/4.3.0": {
+        "dependencies": {
+          "System.Collections": "4.3.0",
+          "System.Diagnostics.Debug": "4.3.0",
+          "System.Dynamic.Runtime": "4.3.0",
+          "System.Globalization": "4.3.0",
+          "System.Linq": "4.3.0",
+          "System.Linq.Expressions": "4.3.0",
+          "System.ObjectModel": "4.3.0",
+          "System.Reflection": "4.3.0",
+          "System.Reflection.Extensions": "4.3.0",
+          "System.Reflection.Primitives": "4.3.0",
+          "System.Reflection.TypeExtensions": "4.3.0",
+          "System.Resources.ResourceManager": "4.3.0",
+          "System.Runtime": "4.3.0",
+          "System.Runtime.Extensions": "4.3.0",
+          "System.Runtime.InteropServices": "4.3.0",
+          "System.Threading": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard1.3/Microsoft.CSharp.dll": {
+            "assemblyVersion": "4.0.2.0",
+            "fileVersion": "4.6.24705.1"
+          }
+        }
+      },
+      "Microsoft.DotNet.PlatformAbstractions/2.0.4": {
+        "dependencies": {
+          "System.AppContext": "4.1.0",
+          "System.Collections": "4.3.0",
+          "System.IO": "4.3.0",
+          "System.IO.FileSystem": "4.0.1",
+          "System.Reflection.TypeExtensions": "4.3.0",
+          "System.Runtime.Extensions": "4.3.0",
+          "System.Runtime.InteropServices": "4.3.0",
+          "System.Runtime.InteropServices.RuntimeInformation": "4.0.0"
+        },
+        "runtime": {
+          "lib/netstandard1.3/Microsoft.DotNet.PlatformAbstractions.dll": {
+            "assemblyVersion": "2.0.4.0",
+            "fileVersion": "2.0.4.0"
+          }
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/2.0.0": {
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.17205"
+          }
+        }
+      },
+      "Microsoft.Extensions.DependencyModel/2.0.4": {
+        "dependencies": {
+          "Microsoft.DotNet.PlatformAbstractions": "2.0.4",
+          "Newtonsoft.Json": "11.0.2",
+          "System.Diagnostics.Debug": "4.3.0",
+          "System.Dynamic.Runtime": "4.3.0",
+          "System.Linq": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard1.6/Microsoft.Extensions.DependencyModel.dll": {
+            "assemblyVersion": "2.0.4.0",
+            "fileVersion": "2.0.4.0"
+          }
+        }
+      },
+      "Microsoft.Extensions.Logging/2.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "2.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "2.0.0",
+          "Microsoft.Extensions.Options": "2.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Logging.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.17205"
+          }
+        }
+      },
+      "Microsoft.Extensions.Logging.Abstractions/2.0.0": {
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.17205"
+          }
+        }
+      },
+      "Microsoft.Extensions.Options/2.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "2.0.0",
+          "Microsoft.Extensions.Primitives": "2.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Options.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.17205"
+          }
+        }
+      },
+      "Microsoft.Extensions.Primitives/2.0.0": {
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "4.4.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Primitives.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.17205"
+          }
+        }
+      },
+      "Microsoft.NETCore.Platforms/1.1.0": {},
+      "Microsoft.NETCore.Targets/1.1.0": {},
+      "NETStandard.Library/2.0.3": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0"
+        }
+      },
+      "Newtonsoft.Json/11.0.2": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "11.0.0.0",
+            "fileVersion": "11.0.2.21924"
+          }
+        }
+      },
+      "runtime.native.System/4.0.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0",
+          "Microsoft.NETCore.Targets": "1.1.0"
+        }
+      },
+      "System.AppContext/4.1.0": {
+        "dependencies": {
+          "System.Runtime": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard1.6/System.AppContext.dll": {
+            "assemblyVersion": "4.1.0.0",
+            "fileVersion": "1.0.24212.1"
+          }
+        }
+      },
+      "System.Collections/4.3.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0",
+          "Microsoft.NETCore.Targets": "1.1.0",
+          "System.Runtime": "4.3.0"
+        }
+      },
+      "System.Collections.Concurrent/4.3.0": {
+        "dependencies": {
+          "System.Collections": "4.3.0",
+          "System.Diagnostics.Debug": "4.3.0",
+          "System.Diagnostics.Tracing": "4.3.0",
+          "System.Globalization": "4.3.0",
+          "System.Reflection": "4.3.0",
+          "System.Resources.ResourceManager": "4.3.0",
+          "System.Runtime": "4.3.0",
+          "System.Runtime.Extensions": "4.3.0",
+          "System.Threading": "4.3.0",
+          "System.Threading.Tasks": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard1.3/System.Collections.Concurrent.dll": {
+            "assemblyVersion": "4.0.13.0",
+            "fileVersion": "4.6.24705.1"
+          }
+        }
+      },
+      "System.Diagnostics.Debug/4.3.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0",
+          "Microsoft.NETCore.Targets": "1.1.0",
+          "System.Runtime": "4.3.0"
+        }
+      },
+      "System.Diagnostics.Tracing/4.3.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0",
+          "Microsoft.NETCore.Targets": "1.1.0",
+          "System.Runtime": "4.3.0"
+        }
+      },
+      "System.Dynamic.Runtime/4.3.0": {
+        "dependencies": {
+          "System.Collections": "4.3.0",
+          "System.Diagnostics.Debug": "4.3.0",
+          "System.Linq": "4.3.0",
+          "System.Linq.Expressions": "4.3.0",
+          "System.ObjectModel": "4.3.0",
+          "System.Reflection": "4.3.0",
+          "System.Reflection.Emit": "4.3.0",
+          "System.Reflection.Emit.ILGeneration": "4.3.0",
+          "System.Reflection.Primitives": "4.3.0",
+          "System.Reflection.TypeExtensions": "4.3.0",
+          "System.Resources.ResourceManager": "4.3.0",
+          "System.Runtime": "4.3.0",
+          "System.Runtime.Extensions": "4.3.0",
+          "System.Threading": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard1.3/System.Dynamic.Runtime.dll": {
+            "assemblyVersion": "4.0.12.0",
+            "fileVersion": "4.6.24705.1"
+          }
+        }
+      },
+      "System.Globalization/4.3.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0",
+          "Microsoft.NETCore.Targets": "1.1.0",
+          "System.Runtime": "4.3.0"
+        }
+      },
+      "System.Interactive.Async/3.1.1": {
+        "dependencies": {
+          "NETStandard.Library": "2.0.3"
+        },
+        "runtime": {
+          "lib/netstandard1.3/System.Interactive.Async.dll": {
+            "assemblyVersion": "3.0.3000.0",
+            "fileVersion": "3.1.1.0"
+          }
+        }
+      },
+      "System.IO/4.3.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0",
+          "Microsoft.NETCore.Targets": "1.1.0",
+          "System.Runtime": "4.3.0",
+          "System.Text.Encoding": "4.3.0",
+          "System.Threading.Tasks": "4.3.0"
+        }
+      },
+      "System.IO.FileSystem/4.0.1": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0",
+          "Microsoft.NETCore.Targets": "1.1.0",
+          "System.IO": "4.3.0",
+          "System.IO.FileSystem.Primitives": "4.0.1",
+          "System.Runtime": "4.3.0",
+          "System.Runtime.Handles": "4.3.0",
+          "System.Text.Encoding": "4.3.0",
+          "System.Threading.Tasks": "4.3.0"
+        }
+      },
+      "System.IO.FileSystem.Primitives/4.0.1": {
+        "dependencies": {
+          "System.Runtime": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard1.3/System.IO.FileSystem.Primitives.dll": {
+            "assemblyVersion": "4.0.1.0",
+            "fileVersion": "1.0.24212.1"
+          }
+        }
+      },
+      "System.Linq/4.3.0": {
+        "dependencies": {
+          "System.Collections": "4.3.0",
+          "System.Diagnostics.Debug": "4.3.0",
+          "System.Resources.ResourceManager": "4.3.0",
+          "System.Runtime": "4.3.0",
+          "System.Runtime.Extensions": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard1.6/System.Linq.dll": {
+            "assemblyVersion": "4.1.1.0",
+            "fileVersion": "4.6.24705.1"
+          }
+        }
+      },
+      "System.Linq.Expressions/4.3.0": {
+        "dependencies": {
+          "System.Collections": "4.3.0",
+          "System.Diagnostics.Debug": "4.3.0",
+          "System.Globalization": "4.3.0",
+          "System.IO": "4.3.0",
+          "System.Linq": "4.3.0",
+          "System.ObjectModel": "4.3.0",
+          "System.Reflection": "4.3.0",
+          "System.Reflection.Emit": "4.3.0",
+          "System.Reflection.Emit.ILGeneration": "4.3.0",
+          "System.Reflection.Emit.Lightweight": "4.3.0",
+          "System.Reflection.Extensions": "4.3.0",
+          "System.Reflection.Primitives": "4.3.0",
+          "System.Reflection.TypeExtensions": "4.3.0",
+          "System.Resources.ResourceManager": "4.3.0",
+          "System.Runtime": "4.3.0",
+          "System.Runtime.Extensions": "4.3.0",
+          "System.Threading": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard1.6/System.Linq.Expressions.dll": {
+            "assemblyVersion": "4.1.1.0",
+            "fileVersion": "4.6.24705.1"
+          }
+        }
+      },
+      "System.Linq.Queryable/4.3.0": {
+        "dependencies": {
+          "System.Collections": "4.3.0",
+          "System.Diagnostics.Debug": "4.3.0",
+          "System.Linq": "4.3.0",
+          "System.Linq.Expressions": "4.3.0",
+          "System.Reflection": "4.3.0",
+          "System.Reflection.Extensions": "4.3.0",
+          "System.Resources.ResourceManager": "4.3.0",
+          "System.Runtime": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard1.3/System.Linq.Queryable.dll": {
+            "assemblyVersion": "4.0.2.0",
+            "fileVersion": "4.6.24705.1"
+          }
+        }
+      },
+      "System.ObjectModel/4.3.0": {
+        "dependencies": {
+          "System.Collections": "4.3.0",
+          "System.Diagnostics.Debug": "4.3.0",
+          "System.Resources.ResourceManager": "4.3.0",
+          "System.Runtime": "4.3.0",
+          "System.Threading": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard1.3/System.ObjectModel.dll": {
+            "assemblyVersion": "4.0.13.0",
+            "fileVersion": "4.6.24705.1"
+          }
+        }
+      },
+      "System.Reflection/4.3.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0",
+          "Microsoft.NETCore.Targets": "1.1.0",
+          "System.IO": "4.3.0",
+          "System.Reflection.Primitives": "4.3.0",
+          "System.Runtime": "4.3.0"
+        }
+      },
+      "System.Reflection.Emit/4.3.0": {
+        "dependencies": {
+          "System.IO": "4.3.0",
+          "System.Reflection": "4.3.0",
+          "System.Reflection.Emit.ILGeneration": "4.3.0",
+          "System.Reflection.Primitives": "4.3.0",
+          "System.Runtime": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard1.3/System.Reflection.Emit.dll": {
+            "assemblyVersion": "4.0.2.0",
+            "fileVersion": "4.6.24705.1"
+          }
+        }
+      },
+      "System.Reflection.Emit.ILGeneration/4.3.0": {
+        "dependencies": {
+          "System.Reflection": "4.3.0",
+          "System.Reflection.Primitives": "4.3.0",
+          "System.Runtime": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard1.3/System.Reflection.Emit.ILGeneration.dll": {
+            "assemblyVersion": "4.0.2.0",
+            "fileVersion": "4.6.24705.1"
+          }
+        }
+      },
+      "System.Reflection.Emit.Lightweight/4.3.0": {
+        "dependencies": {
+          "System.Reflection": "4.3.0",
+          "System.Reflection.Emit.ILGeneration": "4.3.0",
+          "System.Reflection.Primitives": "4.3.0",
+          "System.Runtime": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard1.3/System.Reflection.Emit.Lightweight.dll": {
+            "assemblyVersion": "4.0.2.0",
+            "fileVersion": "4.6.24705.1"
+          }
+        }
+      },
+      "System.Reflection.Extensions/4.3.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0",
+          "Microsoft.NETCore.Targets": "1.1.0",
+          "System.Reflection": "4.3.0",
+          "System.Runtime": "4.3.0"
+        }
+      },
+      "System.Reflection.Primitives/4.3.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0",
+          "Microsoft.NETCore.Targets": "1.1.0",
+          "System.Runtime": "4.3.0"
+        }
+      },
+      "System.Reflection.TypeExtensions/4.3.0": {
+        "dependencies": {
+          "System.Reflection": "4.3.0",
+          "System.Runtime": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard1.5/System.Reflection.TypeExtensions.dll": {
+            "assemblyVersion": "4.1.1.0",
+            "fileVersion": "4.6.24705.1"
+          }
+        }
+      },
+      "System.Resources.ResourceManager/4.3.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0",
+          "Microsoft.NETCore.Targets": "1.1.0",
+          "System.Globalization": "4.3.0",
+          "System.Reflection": "4.3.0",
+          "System.Runtime": "4.3.0"
+        }
+      },
+      "System.Runtime/4.3.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0",
+          "Microsoft.NETCore.Targets": "1.1.0"
+        }
+      },
+      "System.Runtime.CompilerServices.Unsafe/4.4.0": {
+        "runtime": {
+          "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {
+            "assemblyVersion": "4.0.3.0",
+            "fileVersion": "4.0.0.0"
+          }
+        }
+      },
+      "System.Runtime.Extensions/4.3.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0",
+          "Microsoft.NETCore.Targets": "1.1.0",
+          "System.Runtime": "4.3.0"
+        }
+      },
+      "System.Runtime.Handles/4.3.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0",
+          "Microsoft.NETCore.Targets": "1.1.0",
+          "System.Runtime": "4.3.0"
+        }
+      },
+      "System.Runtime.InteropServices/4.3.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0",
+          "Microsoft.NETCore.Targets": "1.1.0",
+          "System.Reflection": "4.3.0",
+          "System.Reflection.Primitives": "4.3.0",
+          "System.Runtime": "4.3.0",
+          "System.Runtime.Handles": "4.3.0"
+        }
+      },
+      "System.Runtime.InteropServices.RuntimeInformation/4.0.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0",
+          "System.Reflection": "4.3.0",
+          "System.Resources.ResourceManager": "4.3.0",
+          "System.Runtime": "4.3.0",
+          "System.Runtime.InteropServices": "4.3.0",
+          "System.Threading": "4.3.0",
+          "runtime.native.System": "4.0.0"
+        }
+      },
+      "System.Runtime.Loader/4.3.0": {
+        "dependencies": {
+          "System.IO": "4.3.0",
+          "System.Reflection": "4.3.0",
+          "System.Runtime": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard1.5/System.Runtime.Loader.dll": {
+            "assemblyVersion": "4.0.1.0",
+            "fileVersion": "4.6.24705.1"
+          }
+        }
+      },
+      "System.Security.Claims/4.3.0": {
+        "dependencies": {
+          "System.Collections": "4.3.0",
+          "System.Globalization": "4.3.0",
+          "System.IO": "4.3.0",
+          "System.Resources.ResourceManager": "4.3.0",
+          "System.Runtime": "4.3.0",
+          "System.Runtime.Extensions": "4.3.0",
+          "System.Security.Principal": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard1.3/System.Security.Claims.dll": {
+            "assemblyVersion": "4.0.2.0",
+            "fileVersion": "4.6.24705.1"
+          }
+        }
+      },
+      "System.Security.Principal/4.3.0": {
+        "dependencies": {
+          "System.Runtime": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard1.0/System.Security.Principal.dll": {
+            "assemblyVersion": "4.0.2.0",
+            "fileVersion": "4.6.24705.1"
+          }
+        }
+      },
+      "System.Text.Encoding/4.3.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0",
+          "Microsoft.NETCore.Targets": "1.1.0",
+          "System.Runtime": "4.3.0"
+        }
+      },
+      "System.Threading/4.3.0": {
+        "dependencies": {
+          "System.Runtime": "4.3.0",
+          "System.Threading.Tasks": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard1.3/System.Threading.dll": {
+            "assemblyVersion": "4.0.12.0",
+            "fileVersion": "4.6.24705.1"
+          }
+        }
+      },
+      "System.Threading.Tasks/4.3.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0",
+          "Microsoft.NETCore.Targets": "1.1.0",
+          "System.Runtime": "4.3.0"
+        }
+      },
+      "System.Threading.Tasks.Parallel/4.3.0": {
+        "dependencies": {
+          "System.Collections.Concurrent": "4.3.0",
+          "System.Diagnostics.Debug": "4.3.0",
+          "System.Diagnostics.Tracing": "4.3.0",
+          "System.Resources.ResourceManager": "4.3.0",
+          "System.Runtime": "4.3.0",
+          "System.Runtime.Extensions": "4.3.0",
+          "System.Threading": "4.3.0",
+          "System.Threading.Tasks": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard1.3/System.Threading.Tasks.Parallel.dll": {
+            "assemblyVersion": "4.0.2.0",
+            "fileVersion": "4.6.24705.1"
+          }
+        }
+      },
+      "System.Threading.Thread/4.0.0": {
+        "dependencies": {
+          "System.Runtime": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard1.3/System.Threading.Thread.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "1.0.24212.1"
+          }
+        }
+      },
+      "System.Threading.ThreadPool/4.0.10": {
+        "dependencies": {
+          "System.Runtime": "4.3.0",
+          "System.Runtime.Handles": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard1.3/System.Threading.ThreadPool.dll": {
+            "assemblyVersion": "4.0.10.0",
+            "fileVersion": "1.0.24212.1"
+          }
+        }
+      },
+      "Concepts/1.0.0": {
+        "dependencies": {
+          "Dolittle.SDK": "2.0.0-alpha2.301"
+        },
+        "runtime": {
+          "Concepts.dll": {}
+        }
+      },
+      "Events/1.0.0": {
+        "dependencies": {
+          "Dolittle.SDK": "2.0.0-alpha2.301"
+        },
+        "runtime": {
+          "Events.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Policies/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Dolittle.Applications/2.0.0-alpha2.203": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-gsCfJ1fzwsFCBKOC5OEjP18LwoNyWdd8AkNgB4Hsg0RaAp64/S1UNYNi41p11kdsRAhrHzCijJzYpiYIqMVFmA==",
+      "path": "dolittle.applications/2.0.0-alpha2.203",
+      "hashPath": "dolittle.applications.2.0.0-alpha2.203.nupkg.sha512"
+    },
+    "Dolittle.Artifacts/2.0.0-alpha2.203": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-u8Uni76PS0UxLcADWQhJoNCQxIERYQPKvdteXOGynNf8aXd1Ky023SXG6sPMn/HFqNIZDtLQGtO31rIoX/Mn4Q==",
+      "path": "dolittle.artifacts/2.0.0-alpha2.203",
+      "hashPath": "dolittle.artifacts.2.0.0-alpha2.203.nupkg.sha512"
+    },
+    "Dolittle.Assemblies/2.0.0-alpha2.203": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-PkBdBMZsgiylQ1Arc2JeDmDbwctoLZUiXz8eNDkDY9kBPmKKMeSFHfbBcJ70RINzmJsCwoJZiCqrcUM0Y6DdIw==",
+      "path": "dolittle.assemblies/2.0.0-alpha2.203",
+      "hashPath": "dolittle.assemblies.2.0.0-alpha2.203.nupkg.sha512"
+    },
+    "Dolittle.Booting/2.0.0-alpha2.203": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-x9IZdjDm/EGcp/dfdR+6K31izc8BRZnVMyNIiJAK/eiaJ9HisrwieXSTKRoyO6dFzguKm4Fv6qtGK6R1prsYiA==",
+      "path": "dolittle.booting/2.0.0-alpha2.203",
+      "hashPath": "dolittle.booting.2.0.0-alpha2.203.nupkg.sha512"
+    },
+    "Dolittle.Collections/2.0.0-alpha2.203": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-sbHDxc3VKlaNzpBeocVQRwcICspN3UAbdEKBq2QuhGjWX6JAOzNDUvht5gfd4mmtQ8evuZio3h8N5+IaM8BS9w==",
+      "path": "dolittle.collections/2.0.0-alpha2.203",
+      "hashPath": "dolittle.collections.2.0.0-alpha2.203.nupkg.sha512"
+    },
+    "Dolittle.Concepts/2.0.0-alpha2.203": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-YbYmmq4ZUehgy/yByJzxm/gliRvHNSRVvrLrI9FA6Pgo92hp9a3PJr7lU5V1+kF+3r4oKNZBDq5aJYivWpFJNg==",
+      "path": "dolittle.concepts/2.0.0-alpha2.203",
+      "hashPath": "dolittle.concepts.2.0.0-alpha2.203.nupkg.sha512"
+    },
+    "Dolittle.Concepts.Serialization.Json/2.0.0-alpha2.203": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-VKSXnkI3GzUhF+llj3JTMsZfj0Le6EaxQzBb0Yj8D7BrTAK3Bg6tjJ8AL6UVpgcaJSq9Wm6sgGarZcT2F+0myw==",
+      "path": "dolittle.concepts.serialization.json/2.0.0-alpha2.203",
+      "hashPath": "dolittle.concepts.serialization.json.2.0.0-alpha2.203.nupkg.sha512"
+    },
+    "Dolittle.Configuration/2.0.0-alpha2.203": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-WpdAaOEm5E+r1gdszcBv9oiTI7me48K4n9FtZ71uAzwmfnabjpI/VqKOsM4RAv8HPSVszVu1pWOg0jgmzfbYAQ==",
+      "path": "dolittle.configuration/2.0.0-alpha2.203",
+      "hashPath": "dolittle.configuration.2.0.0-alpha2.203.nupkg.sha512"
+    },
+    "Dolittle.DependencyInversion/2.0.0-alpha2.203": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-B/OB4v1i86AyYmOWlzsXnh2UUOgHGGRGIYwACBnDAl8Vo7h1ds/G/yRf0XPJECVV8M+na7WlrzhmaKjozQ1KZQ==",
+      "path": "dolittle.dependencyinversion/2.0.0-alpha2.203",
+      "hashPath": "dolittle.dependencyinversion.2.0.0-alpha2.203.nupkg.sha512"
+    },
+    "Dolittle.Dynamic/2.0.0-alpha2.203": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ZJXPl3AcOh9mrXS2pMx6B+6ypHUAbJcJp5/0S1PxMFPncSi8cVXxc1fXXeFdwBqltO/EwgvejXuJhjscvxY0AQ==",
+      "path": "dolittle.dynamic/2.0.0-alpha2.203",
+      "hashPath": "dolittle.dynamic.2.0.0-alpha2.203.nupkg.sha512"
+    },
+    "Dolittle.Execution/2.0.0-alpha2.203": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-yAL+5mGVB/+3ne4tk6B0Yw85Ra5I2Tupn4nQWLe1+BTdJLPTdagLBicR0Lkd/VfkrBYT0RO2PWFYHejuaTNrHg==",
+      "path": "dolittle.execution/2.0.0-alpha2.203",
+      "hashPath": "dolittle.execution.2.0.0-alpha2.203.nupkg.sha512"
+    },
+    "Dolittle.Globalization/2.0.0-alpha2.203": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ZaFgIDrbzhU2Y+0vrmqRZGd7Z5KCJuCqbmkEBSrB/ZdVTo5eecFpDaTrqqNiV9WL5lXFWuBqyZcptJjMQE/Q7g==",
+      "path": "dolittle.globalization/2.0.0-alpha2.203",
+      "hashPath": "dolittle.globalization.2.0.0-alpha2.203.nupkg.sha512"
+    },
+    "Dolittle.Immutability/2.0.0-alpha2.203": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kwji46TmRjwR4P7+Xupy7K8sLiAoDnoNR4oFACeW3uWVtN+P+HrDDBSQKbk5BogjBOSNqh16QvVrz+NlDH5Peg==",
+      "path": "dolittle.immutability/2.0.0-alpha2.203",
+      "hashPath": "dolittle.immutability.2.0.0-alpha2.203.nupkg.sha512"
+    },
+    "Dolittle.IO/2.0.0-alpha2.203": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-RhGjx+dwVyfpoWj4ITHxsa2W1/tGVycBZimsy0iOcH+Rvw2OREdT1jMl+ucNxx2enjLSzv4qSuRDDdyLdAD09Q==",
+      "path": "dolittle.io/2.0.0-alpha2.203",
+      "hashPath": "dolittle.io.2.0.0-alpha2.203.nupkg.sha512"
+    },
+    "Dolittle.Lifecycle/2.0.0-alpha2.203": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-SfMSjA2wHW6HAG6ESv+WeN2/B1iMPcdSNEV8HaR4aejnVksSDJ2klHDTr89wk7iEZQnk+y43dmsbwj375dUuxQ==",
+      "path": "dolittle.lifecycle/2.0.0-alpha2.203",
+      "hashPath": "dolittle.lifecycle.2.0.0-alpha2.203.nupkg.sha512"
+    },
+    "Dolittle.Logging/2.0.0-alpha2.203": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-w9DvANzgvsBP+B0tPhsHVy8sPwnzvFGWy0TR48ImSzKt5IGBxkfukn2Q05fqybuRs5ljynALuc2+AFoDpUaGTg==",
+      "path": "dolittle.logging/2.0.0-alpha2.203",
+      "hashPath": "dolittle.logging.2.0.0-alpha2.203.nupkg.sha512"
+    },
+    "Dolittle.PropertyBags/2.0.0-alpha2.203": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ldh/EW9pZ1YzR55fPB4E/sktBshhqbeBt59kwrBu8EruSahKLyOTLtK7lNAlnH1YrVGCDQPx8z8rrQlKbloSkA==",
+      "path": "dolittle.propertybags/2.0.0-alpha2.203",
+      "hashPath": "dolittle.propertybags.2.0.0-alpha2.203.nupkg.sha512"
+    },
+    "Dolittle.Reflection/2.0.0-alpha2.203": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Kx1N1DXO4wrJkytFZ6oi5A2QOd3ircNtZXszTZPm3KH/2xj+ak4LMFpdJhXPNNPGkO2fc8bIZSxut+jlziOsiA==",
+      "path": "dolittle.reflection/2.0.0-alpha2.203",
+      "hashPath": "dolittle.reflection.2.0.0-alpha2.203.nupkg.sha512"
+    },
+    "Dolittle.ResourceTypes/2.0.0-alpha2.203": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-x///CKR8RPJmSkE9ncGsoCgZUyPWQHsvvfksqkDBfnYZKcq8N/qRqhREwellX4tDGKaU+Ea83meYv1JrNqRVUQ==",
+      "path": "dolittle.resourcetypes/2.0.0-alpha2.203",
+      "hashPath": "dolittle.resourcetypes.2.0.0-alpha2.203.nupkg.sha512"
+    },
+    "Dolittle.ResourceTypes.Configuration/2.0.0-alpha2.203": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-4NrpoFuDVvsWdo2KwBaH2JQkSGqdo2Tl9RX99G7Pmm2ruv2zOYWlcHxYb2iVcY/GrJj5xNGIKXlYZUShIzSgCA==",
+      "path": "dolittle.resourcetypes.configuration/2.0.0-alpha2.203",
+      "hashPath": "dolittle.resourcetypes.configuration.2.0.0-alpha2.203.nupkg.sha512"
+    },
+    "Dolittle.Rules/2.0.0-alpha2.203": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-nHPKZnksMNpZoO0OsQ6n9o9/AtmK9+FbSUEOSiFnUk9jcnJwvy41aCVv6146sd5AAJdTjho1xfsIqIUJ1Nlmlg==",
+      "path": "dolittle.rules/2.0.0-alpha2.203",
+      "hashPath": "dolittle.rules.2.0.0-alpha2.203.nupkg.sha512"
+    },
+    "Dolittle.Runtime.Applications.Configuration/2.0.0-alpha2.169": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-5EcB8uv5Z2DQ+odozA8r9z0VW8cwa95ejGYXuX/yCoZQFTpntSfQFw2Xwomwvi3ltRV5MqImwsI/3AxhUFyObg==",
+      "path": "dolittle.runtime.applications.configuration/2.0.0-alpha2.169",
+      "hashPath": "dolittle.runtime.applications.configuration.2.0.0-alpha2.169.nupkg.sha512"
+    },
+    "Dolittle.Runtime.Commands/2.0.0-alpha2.169": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xMfQTtIPVy/KRmX4g0yz2Nup4Y1flvDeQSNaoznuSVJewRl83+bww4YozkwdOE4IVBuIErDw3wtp7vTaQ93SQQ==",
+      "path": "dolittle.runtime.commands/2.0.0-alpha2.169",
+      "hashPath": "dolittle.runtime.commands.2.0.0-alpha2.169.nupkg.sha512"
+    },
+    "Dolittle.Runtime.Commands.Coordination/2.0.0-alpha2.169": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Dfk4XTvyZU3dH0S6vTsJ3Xa34e4jGVg/5Vn4Eu5VhhqnylG0AJ2mPd6dOqJoBQrqhS/zMIL8bH0zuX/0UhQVgQ==",
+      "path": "dolittle.runtime.commands.coordination/2.0.0-alpha2.169",
+      "hashPath": "dolittle.runtime.commands.coordination.2.0.0-alpha2.169.nupkg.sha512"
+    },
+    "Dolittle.Runtime.Commands.Handling/2.0.0-alpha2.169": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-SPxpPfSmjTzr1lcPoyDI4pOxdQUMfgfZKdcwaUc2QB9y6tnXHjdeypoqbix6+QHBD73z66sC2EUTXYNcqcmmAw==",
+      "path": "dolittle.runtime.commands.handling/2.0.0-alpha2.169",
+      "hashPath": "dolittle.runtime.commands.handling.2.0.0-alpha2.169.nupkg.sha512"
+    },
+    "Dolittle.Runtime.Commands.Security/2.0.0-alpha2.169": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Dq5hJwatDyajATiObE9logRd/xkUOxkL2gripw/KR0o7pDNbynC1oqKC//2KlOns0QZu77ug77IVSViRMu5k0Q==",
+      "path": "dolittle.runtime.commands.security/2.0.0-alpha2.169",
+      "hashPath": "dolittle.runtime.commands.security.2.0.0-alpha2.169.nupkg.sha512"
+    },
+    "Dolittle.Runtime.Commands.Validation/2.0.0-alpha2.169": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-H5uxFfMrBiLtbqf1ZQQ6dr5tUP/8HFafzG0TFs+UUNMYLKg/1qBOreJSr8F3hBsuhCa3cp6n3HGbMwFTEd5zNA==",
+      "path": "dolittle.runtime.commands.validation/2.0.0-alpha2.169",
+      "hashPath": "dolittle.runtime.commands.validation.2.0.0-alpha2.169.nupkg.sha512"
+    },
+    "Dolittle.Runtime.Events/2.0.0-alpha2.169": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-F/JPhkcKfV4ak/ywyw6a84/LV7sZkaTrbbfOSUQViYacg7ZxbMrgs4FzkWq/5XA4Hpus7Hew5Sy9328ev99xlA==",
+      "path": "dolittle.runtime.events/2.0.0-alpha2.169",
+      "hashPath": "dolittle.runtime.events.2.0.0-alpha2.169.nupkg.sha512"
+    },
+    "Dolittle.Runtime.Queries/2.0.0-alpha2.169": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Xvwe8pqb7tBqyDNX8teE33A2rhFuMAH2eSV0FaXO2mGAJlgTc6Ni1pB9UB7FNjQBXhFvWf87G5oCR49D3zXpyw==",
+      "path": "dolittle.runtime.queries/2.0.0-alpha2.169",
+      "hashPath": "dolittle.runtime.queries.2.0.0-alpha2.169.nupkg.sha512"
+    },
+    "Dolittle.Runtime.ReadModels/2.0.0-alpha2.169": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-uZ+PtBrXJqRkAUCHY+lW0b22s3zaAMFzrYwh81wSTHDrg4y8P49TfeDfEvQ5oQPCnBBuokyiVUhyv5ajxj8Cnw==",
+      "path": "dolittle.runtime.readmodels/2.0.0-alpha2.169",
+      "hashPath": "dolittle.runtime.readmodels.2.0.0-alpha2.169.nupkg.sha512"
+    },
+    "Dolittle.Runtime.Server/2.0.0-alpha2.169": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Tmi9lC5W0wmULx+n6Uy6UK8kqbfjC6v7qcL4ERcWAOHMRhHP1YxIPAp8XUbJWP+YaI/Z3QnACy/3GB+hIgZiwA==",
+      "path": "dolittle.runtime.server/2.0.0-alpha2.169",
+      "hashPath": "dolittle.runtime.server.2.0.0-alpha2.169.nupkg.sha512"
+    },
+    "Dolittle.Runtime.Tenancy/2.0.0-alpha2.169": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kf+5jWjxa9jhHD2+1igIGr/b/93F4lGweBuvOVDIjyYXalJGePIvvpuehx41RfgcRuBXcGoiuPSJBvE35y2a9A==",
+      "path": "dolittle.runtime.tenancy/2.0.0-alpha2.169",
+      "hashPath": "dolittle.runtime.tenancy.2.0.0-alpha2.169.nupkg.sha512"
+    },
+    "Dolittle.Runtime.Transactions/2.0.0-alpha2.169": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/ZA1qkenCx9r8Xtcm9RdVzdWtOLO+DM94uy9qhGxw6QP3IJd8zmL7r8eCwhEm0OKgskIAQvVl84CVPfkqydt6A==",
+      "path": "dolittle.runtime.transactions/2.0.0-alpha2.169",
+      "hashPath": "dolittle.runtime.transactions.2.0.0-alpha2.169.nupkg.sha512"
+    },
+    "Dolittle.Runtime.Validation/2.0.0-alpha2.169": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ZvM0A/IxYk1XILbx+fLRF/buhtp0fS6Uh2H18fhP6lm+0eEr/Y6acwAZPi561rIALoo4kUxtkyzu33UYhHUy4A==",
+      "path": "dolittle.runtime.validation/2.0.0-alpha2.169",
+      "hashPath": "dolittle.runtime.validation.2.0.0-alpha2.169.nupkg.sha512"
+    },
+    "Dolittle.Scheduling/2.0.0-alpha2.203": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-C9uWMxDT/faVuIXWbF5OdyQN82Uj0P9fIcYMK5sB3ZuYu2Od4FPg4md3bvAoWsSkdtIA69C8WDUSDuXv0fjSSg==",
+      "path": "dolittle.scheduling/2.0.0-alpha2.203",
+      "hashPath": "dolittle.scheduling.2.0.0-alpha2.203.nupkg.sha512"
+    },
+    "Dolittle.SDK/2.0.0-alpha2.301": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-M2k30hiDGwdXSjGK2EyLuQU2YkE0JMxIzTJDlzShqAxWdO9QwTY89fgXEDwAW+pj2b2JYKoNGSnQj0HSZd0glQ==",
+      "path": "dolittle.sdk/2.0.0-alpha2.301",
+      "hashPath": "dolittle.sdk.2.0.0-alpha2.301.nupkg.sha512"
+    },
+    "Dolittle.SDK.Applications/2.0.0-alpha2.301": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-8RVS+i1OhaCgDlE0DcF7xATHtzBUfqWd4wXvyW5LjlzNG6CsXiT7HCx5D9/GrOJs86hIIOnU84peWKz0kEsxdA==",
+      "path": "dolittle.sdk.applications/2.0.0-alpha2.301",
+      "hashPath": "dolittle.sdk.applications.2.0.0-alpha2.301.nupkg.sha512"
+    },
+    "Dolittle.SDK.Applications.Configuration/2.0.0-alpha2.301": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ezTV305skYme4+G7EX/GAHQFz71dw+2kxCOgB32MLU1RxdiOJzQo7OY+I2nxAHoHcLA2iDE4U7IliLTPEA7H6Q==",
+      "path": "dolittle.sdk.applications.configuration/2.0.0-alpha2.301",
+      "hashPath": "dolittle.sdk.applications.configuration.2.0.0-alpha2.301.nupkg.sha512"
+    },
+    "Dolittle.SDK.Artifacts/2.0.0-alpha2.301": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ZdByGzpgPkIngaXxNaxnGHESlLu5O9M+YzHIkskVsJkLmxglkpJO1QWa8m8V+9QAZGS+4t0o32eUSSA7hsZNWw==",
+      "path": "dolittle.sdk.artifacts/2.0.0-alpha2.301",
+      "hashPath": "dolittle.sdk.artifacts.2.0.0-alpha2.301.nupkg.sha512"
+    },
+    "Dolittle.SDK.Artifacts.Configuration/2.0.0-alpha2.301": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ihAMxMbkx2T8zUYr9I0cD8RW+nqelpJFLZ9VIMHlySxNkA7r0XH3YHitWdl2aqCE8KoujcqetRNBwebywaY/kg==",
+      "path": "dolittle.sdk.artifacts.configuration/2.0.0-alpha2.301",
+      "hashPath": "dolittle.sdk.artifacts.configuration.2.0.0-alpha2.301.nupkg.sha512"
+    },
+    "Dolittle.SDK.Commands/2.0.0-alpha2.301": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-IXYF3mJal+zqcsO0KvEagFSZpD1NKIjvAdrHiD+J40HPIrX9njprErukzWxk4F2mr9GrqS84xx5yFTdxc7B0NQ==",
+      "path": "dolittle.sdk.commands/2.0.0-alpha2.301",
+      "hashPath": "dolittle.sdk.commands.2.0.0-alpha2.301.nupkg.sha512"
+    },
+    "Dolittle.SDK.Commands.Coordination/2.0.0-alpha2.301": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-YDYsi6ll4viutt1SV/eNYxz5oM+w5+KwrKGYxdgeJo9b0xY84SaZqz6HOpgZPpCFT00mS3x7uWiUpV/5I07a+Q==",
+      "path": "dolittle.sdk.commands.coordination/2.0.0-alpha2.301",
+      "hashPath": "dolittle.sdk.commands.coordination.2.0.0-alpha2.301.nupkg.sha512"
+    },
+    "Dolittle.SDK.Commands.Handling/2.0.0-alpha2.301": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-J4CsoZ5zNuwaINNzg2lwK90UyeWR0yASDfPPAfffR+i7nDH7P85JE+LGS7p5TBS/kCUmljTdnkz+T4CWgU23rQ==",
+      "path": "dolittle.sdk.commands.handling/2.0.0-alpha2.301",
+      "hashPath": "dolittle.sdk.commands.handling.2.0.0-alpha2.301.nupkg.sha512"
+    },
+    "Dolittle.SDK.Commands.Validation/2.0.0-alpha2.301": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-F4dWIz3cU7bMQfb2N1ZhEe0Rdt352E2hbXykmHxCpjG8pKkToAt340NZhG6MSqp2qI08cfn0fENRzliTpLYAwA==",
+      "path": "dolittle.sdk.commands.validation/2.0.0-alpha2.301",
+      "hashPath": "dolittle.sdk.commands.validation.2.0.0-alpha2.301.nupkg.sha512"
+    },
+    "Dolittle.SDK.Domain/2.0.0-alpha2.301": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-9pTUszl0YKNbJ7+cI5+B90rFz5GgU1oJJMOUysIO6h1sZQ7NDhPq/eIcFuJMF3rEZRalsp+CtUsd5ASNQnoQ7w==",
+      "path": "dolittle.sdk.domain/2.0.0-alpha2.301",
+      "hashPath": "dolittle.sdk.domain.2.0.0-alpha2.301.nupkg.sha512"
+    },
+    "Dolittle.SDK.Events/2.0.0-alpha2.301": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-JVTRk+7gNoQx3i9s69rbJUNyUTyyw4zQDM6O+/ij3heYnApKLSgj4F6burSAe+8726Na74BxAZo0REAN4AVi7w==",
+      "path": "dolittle.sdk.events/2.0.0-alpha2.301",
+      "hashPath": "dolittle.sdk.events.2.0.0-alpha2.301.nupkg.sha512"
+    },
+    "Dolittle.SDK.Events.Processing/2.0.0-alpha2.301": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-0U2slRQm3t4uD3tXQ6ccz9b6gUTT1rKjsicEi2sF0rY+Aw90Z8IRLcmB+sUJU32F2/hA7Tw8RFcgJwizf3BQpA==",
+      "path": "dolittle.sdk.events.processing/2.0.0-alpha2.301",
+      "hashPath": "dolittle.sdk.events.processing.2.0.0-alpha2.301.nupkg.sha512"
+    },
+    "Dolittle.SDK.Queries/2.0.0-alpha2.301": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-UmDW/KruBipN+ZwEKH2RhLVhR8ZRkVhMK18dQlNeIwRO5ejg8Q4tYWzOKrl+whnli56uK0PIu+FiQqIrzJ3udA==",
+      "path": "dolittle.sdk.queries/2.0.0-alpha2.301",
+      "hashPath": "dolittle.sdk.queries.2.0.0-alpha2.301.nupkg.sha512"
+    },
+    "Dolittle.SDK.ReadModels/2.0.0-alpha2.301": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-5tQ7REvbLdV07NGXkOn0uzmEegFlGcZ9lPpCAef3V/I308TTJH8aL0IioeNmoTR+LK3Mq9i/UnwD46ztxVQTeg==",
+      "path": "dolittle.sdk.readmodels/2.0.0-alpha2.301",
+      "hashPath": "dolittle.sdk.readmodels.2.0.0-alpha2.301.nupkg.sha512"
+    },
+    "Dolittle.SDK.Rules/2.0.0-alpha2.301": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-gaTctt3uGFUDz8JCYQu399lSkRVB/OjpfnpORAy0XkGEGxB6+2BFzSwT4IQbdqDf8MP1dWYAdgSjNxBv++QQxQ==",
+      "path": "dolittle.sdk.rules/2.0.0-alpha2.301",
+      "hashPath": "dolittle.sdk.rules.2.0.0-alpha2.301.nupkg.sha512"
+    },
+    "Dolittle.SDK.Validation/2.0.0-alpha2.301": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-SfOUDub9KiOpodVhI+MJlXEPs5gGJTT9odAh7gw1p+noTTga0Owi7PqDpIr3eQPWv9Q1DCGjKDS7VvRIqDMWJA==",
+      "path": "dolittle.sdk.validation/2.0.0-alpha2.301",
+      "hashPath": "dolittle.sdk.validation.2.0.0-alpha2.301.nupkg.sha512"
+    },
+    "Dolittle.Security/2.0.0-alpha2.203": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xmlf0hThpaHxoHX2PNknSB5LqLxbupBAkSCjagjbzggN6CqO+692ufOk00nMiwUad21IUzDBl/stClhAYoVHhQ==",
+      "path": "dolittle.security/2.0.0-alpha2.203",
+      "hashPath": "dolittle.security.2.0.0-alpha2.203.nupkg.sha512"
+    },
+    "Dolittle.Serialization.Json/2.0.0-alpha2.203": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-0/NLZNiObwaGxtro6QCORIuFP16BeQOythRPu7XEprnJYB4CxZGoWOZ7asHd77Tk+5F2vl9c0Yq9Rgo6+zeWZQ==",
+      "path": "dolittle.serialization.json/2.0.0-alpha2.203",
+      "hashPath": "dolittle.serialization.json.2.0.0-alpha2.203.nupkg.sha512"
+    },
+    "Dolittle.Serialization.Protobuf/2.0.0-alpha2.203": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-p0Nob0gf6SheMB45SlQ5Ngf9tGwYOXFSy6PEu5EdIfd2kmaW2UeYDqX46bJf1+ufA5mg49SlQDb4Ytmz7smcFQ==",
+      "path": "dolittle.serialization.protobuf/2.0.0-alpha2.203",
+      "hashPath": "dolittle.serialization.protobuf.2.0.0-alpha2.203.nupkg.sha512"
+    },
+    "Dolittle.Specifications/2.0.0-alpha2.203": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-vn6FVH5aKVUpbHQn/cJFjpEL4oMQsF8S1dfz2cdXU4vxRHTqKfAB8KBvVE+n7AI0KPTYBIHWAUAmYm4Q9psuDA==",
+      "path": "dolittle.specifications/2.0.0-alpha2.203",
+      "hashPath": "dolittle.specifications.2.0.0-alpha2.203.nupkg.sha512"
+    },
+    "Dolittle.Strings/2.0.0-alpha2.203": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-LHlDVXTheJ1nGhMK41FwkrT6UnWy7SPmCodmPw7VqPvk54kiOHVb9PBOrg8mVdIT0hihxNYhYfth7SuFyKVz2w==",
+      "path": "dolittle.strings/2.0.0-alpha2.203",
+      "hashPath": "dolittle.strings.2.0.0-alpha2.203.nupkg.sha512"
+    },
+    "Dolittle.Tenancy/2.0.0-alpha2.203": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-0b+czFFYkOXsd386JHJ8GkAfGBQB9jlD1qA+re+boD3r1jbBdSpsQBEDvYvyl/dXgG2QNcWFwq489lITkBB4mw==",
+      "path": "dolittle.tenancy/2.0.0-alpha2.203",
+      "hashPath": "dolittle.tenancy.2.0.0-alpha2.203.nupkg.sha512"
+    },
+    "Dolittle.Time/2.0.0-alpha2.203": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-2jvmYTXOwPnB8r9N3f2F+jFiFRDlQfA256w3QyQo2r69CILD8LJlYpV2OP8QWChpaWxMGYQvzKAA4XtJjtSOig==",
+      "path": "dolittle.time/2.0.0-alpha2.203",
+      "hashPath": "dolittle.time.2.0.0-alpha2.203.nupkg.sha512"
+    },
+    "Dolittle.Types/2.0.0-alpha2.203": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-yGopF7RniES3+UrINRDii3lyTcyvG+akj+68mBT0Rp6D4C9/5PxqRfSQXO7qwsTVaLOpcCwFB+7cMtq632y/wQ==",
+      "path": "dolittle.types/2.0.0-alpha2.203",
+      "hashPath": "dolittle.types.2.0.0-alpha2.203.nupkg.sha512"
+    },
+    "FluentValidation/7.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Coebnfjqv+JZtPY0c+G5YRy007bGW6NHcIUulUKKN2OsIhdHYplBPBK+Rb3J1NIxjV8r2cqlJzuFw/aIVyoChQ==",
+      "path": "fluentvalidation/7.1.1",
+      "hashPath": "fluentvalidation.7.1.1.nupkg.sha512"
+    },
+    "Google.Protobuf/3.5.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-j/gbpRZ68sgvdi/vXI39Cj/jWG4d1dtDqfWbkjC9dErNWu/dFcIlq1LIgLscea+llZ6nzm06wz/JGziOegAL7Q==",
+      "path": "google.protobuf/3.5.1",
+      "hashPath": "google.protobuf.3.5.1.nupkg.sha512"
+    },
+    "Google.Protobuf.Tools/3.5.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-TUEb5bihBWsKnRAGcafD3gckJnc8LabKyCLfOP9s3Zb2vhteYC07Z2f9uv93mBHbknO4mDjfIIqjTnnEofqoYw==",
+      "path": "google.protobuf.tools/3.5.1",
+      "hashPath": "google.protobuf.tools.3.5.1.nupkg.sha512"
+    },
+    "Grpc/1.8.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-PZP2P73KnKLii3XqFPpbcwY4CJC4mxEXmoWxZb63NLyVWtueqe69QHxnh9xEwMhcqtIUO1rB856dgsWfEuNa0g==",
+      "path": "grpc/1.8.0",
+      "hashPath": "grpc.1.8.0.nupkg.sha512"
+    },
+    "Grpc.Core/1.8.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-KYurwC/3uTnhGi/06akGu0WS4AdNc6oZPzsajp+iR1k7TwSfb/IMPPCMbD7Q4JIJG8tWko14AmdkiYlrREkgMA==",
+      "path": "grpc.core/1.8.0",
+      "hashPath": "grpc.core.1.8.0.nupkg.sha512"
+    },
+    "Grpc.Tools/1.8.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-dmuml89iXrtJqjx5ojloxhum5/wkrWoSKLOMN+6Qo9LbfASIP4hOgVPO/GBCTxfOZrub9g5LBd1IvtdKulVNeQ==",
+      "path": "grpc.tools/1.8.0",
+      "hashPath": "grpc.tools.1.8.0.nupkg.sha512"
+    },
+    "Microsoft.CSharp/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-P+MBhIM0YX+JqROuf7i306ZLJEjQYA9uUyRDE+OqwUI5sh41e2ZbPQV3LfAPh+29cmceE1pUffXsGfR4eMY3KA==",
+      "path": "microsoft.csharp/4.3.0",
+      "hashPath": "microsoft.csharp.4.3.0.nupkg.sha512"
+    },
+    "Microsoft.DotNet.PlatformAbstractions/2.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-GEZr426plfXrwfrZEDEASr6bhnMmvyyAFC5vufFrXVYEXuQLN9s2AXXBGNmDaVis4ziHucPTUs0cLfSOAHqE/Q==",
+      "path": "microsoft.dotnet.platformabstractions/2.0.4",
+      "hashPath": "microsoft.dotnet.platformabstractions.2.0.4.nupkg.sha512"
+    },
+    "Microsoft.Extensions.DependencyInjection.Abstractions/2.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-P4dK3DZQFsp7fFzkBu9H9jesBj0KB3O9c50n9FeAOIF+A8aQKBRj63luC9gPqvcedNdMfYQoEUe5dLps1sqvuA==",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/2.0.0",
+      "hashPath": "microsoft.extensions.dependencyinjection.abstractions.2.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.DependencyModel/2.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-fWKaONH3UsS6kacDYM2+cuodo0pkcxjtQU1DaXvT69f83r+8hUeaEaxeEzSh3fSmTlDv86FO1MDmAmh/9/y9Mg==",
+      "path": "microsoft.extensions.dependencymodel/2.0.4",
+      "hashPath": "microsoft.extensions.dependencymodel.2.0.4.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Logging/2.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-e8bg91GZy4FyNyV3/HT8E7vhsDJIHlwrXDi64knBYbdLqkQuLKkJdMo6Ai9T9wXWNS/3htlcuQXbjNMBueWYPA==",
+      "path": "microsoft.extensions.logging/2.0.0",
+      "hashPath": "microsoft.extensions.logging.2.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Logging.Abstractions/2.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-h6XT8ejlUsMH81O2+7N8GBD5htW1DLkHCYWwKnjup9NW2b/iEccmvyDqjQJl8e9mPC1XtlUap12w+Mfe94vxUQ==",
+      "path": "microsoft.extensions.logging.abstractions/2.0.0",
+      "hashPath": "microsoft.extensions.logging.abstractions.2.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Options/2.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-IaIQbVgAm8RaYRvBPMAvZ3jPM6JsmxytCFLB9gABHbVMC7GX2lZSxo3N2hZc0HkiRr51GV+ns9SC2TdM7mA9rw==",
+      "path": "microsoft.extensions.options/2.0.0",
+      "hashPath": "microsoft.extensions.options.2.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Primitives/2.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-AMyFwlYdEY4GjjCFGQhUr1/0ZZyYyNjjpCx8Vwfy+Ylxv8pn649uaX5J2L7aknEtQY5+XA+TSfxRSBCgy68yvQ==",
+      "path": "microsoft.extensions.primitives/2.0.0",
+      "hashPath": "microsoft.extensions.primitives.2.0.0.nupkg.sha512"
+    },
+    "Microsoft.NETCore.Platforms/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
+      "path": "microsoft.netcore.platforms/1.1.0",
+      "hashPath": "microsoft.netcore.platforms.1.1.0.nupkg.sha512"
+    },
+    "Microsoft.NETCore.Targets/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-aOZA3BWfz9RXjpzt0sRJJMjAscAUm3Hoa4UWAfceV9UTYxgwZ1lZt5nO2myFf+/jetYQo4uTP7zS8sJY67BBxg==",
+      "path": "microsoft.netcore.targets/1.1.0",
+      "hashPath": "microsoft.netcore.targets.1.1.0.nupkg.sha512"
+    },
+    "NETStandard.Library/2.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-st47PosZSHrjECdjeIzZQbzivYBJFv6P2nv4cj2ypdI204DO+vZ7l5raGMiX4eXMJ53RfOIg+/s4DHVZ54Nu2A==",
+      "path": "netstandard.library/2.0.3",
+      "hashPath": "netstandard.library.2.0.3.nupkg.sha512"
+    },
+    "Newtonsoft.Json/11.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-IvJe1pj7JHEsP8B8J8DwlMEx8UInrs/x+9oVY+oCD13jpLu4JbJU2WCIsMRn5C4yW9+DgkaO8uiVE5VHKjpmdQ==",
+      "path": "newtonsoft.json/11.0.2",
+      "hashPath": "newtonsoft.json.11.0.2.nupkg.sha512"
+    },
+    "runtime.native.System/4.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-QfS/nQI7k/BLgmLrw7qm7YBoULEvgWnPI+cYsbfCVFTW8Aj+i8JhccxcFMu1RWms0YZzF+UHguNBK4Qn89e2Sg==",
+      "path": "runtime.native.system/4.0.0",
+      "hashPath": "runtime.native.system.4.0.0.nupkg.sha512"
+    },
+    "System.AppContext/4.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3QjO4jNV7PdKkmQAVp9atA+usVnKRwI3Kx1nMwJ93T0LcQfx7pKAYk0nKz5wn1oP5iqlhZuy6RXOFdhr7rDwow==",
+      "path": "system.appcontext/4.1.0",
+      "hashPath": "system.appcontext.4.1.0.nupkg.sha512"
+    },
+    "System.Collections/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3Dcj85/TBdVpL5Zr+gEEBUuFe2icOnLalmEh9hfck1PTYbbyWuZgh4fmm2ysCLTrqLQw6t3TgTyJ+VLp+Qb+Lw==",
+      "path": "system.collections/4.3.0",
+      "hashPath": "system.collections.4.3.0.nupkg.sha512"
+    },
+    "System.Collections.Concurrent/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ztl69Xp0Y/UXCL+3v3tEU+lIy+bvjKNUmopn1wep/a291pVPK7dxBd6T7WnlQqRog+d1a/hSsgRsmFnIBKTPLQ==",
+      "path": "system.collections.concurrent/4.3.0",
+      "hashPath": "system.collections.concurrent.4.3.0.nupkg.sha512"
+    },
+    "System.Diagnostics.Debug/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ZUhUOdqmaG5Jk3Xdb8xi5kIyQYAA4PnTNlHx1mu9ZY3qv4ELIdKbnL/akbGaKi2RnNUWaZsAs31rvzFdewTj2g==",
+      "path": "system.diagnostics.debug/4.3.0",
+      "hashPath": "system.diagnostics.debug.4.3.0.nupkg.sha512"
+    },
+    "System.Diagnostics.Tracing/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-rswfv0f/Cqkh78rA5S8eN8Neocz234+emGCtTF3lxPY96F+mmmUen6tbn0glN6PMvlKQb9bPAY5e9u7fgPTkKw==",
+      "path": "system.diagnostics.tracing/4.3.0",
+      "hashPath": "system.diagnostics.tracing.4.3.0.nupkg.sha512"
+    },
+    "System.Dynamic.Runtime/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-SNVi1E/vfWUAs/WYKhE9+qlS6KqK0YVhnlT0HQtr8pMIA8YX3lwy3uPMownDwdYISBdmAF/2holEIldVp85Wag==",
+      "path": "system.dynamic.runtime/4.3.0",
+      "hashPath": "system.dynamic.runtime.4.3.0.nupkg.sha512"
+    },
+    "System.Globalization/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kYdVd2f2PAdFGblzFswE4hkNANJBKRmsfa2X5LG2AcWE1c7/4t0pYae1L8vfZ5xvE2nK/R9JprtToA61OSHWIg==",
+      "path": "system.globalization/4.3.0",
+      "hashPath": "system.globalization.4.3.0.nupkg.sha512"
+    },
+    "System.Interactive.Async/3.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-hZccYiIE5RS1/J9Tb/BNtosAGVggdlsJm4Ojdu+gDV0p4AIi+LUfUogMKkRacljQEJd2AG6vYzvcjhQFkqoZmw==",
+      "path": "system.interactive.async/3.1.1",
+      "hashPath": "system.interactive.async.3.1.1.nupkg.sha512"
+    },
+    "System.IO/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3qjaHvxQPDpSOYICjUoTsmoq5u6QJAFRUITgeT/4gqkF1bajbSmb1kwSxEA8AHlofqgcKJcM8udgieRNhaJ5Cg==",
+      "path": "system.io/4.3.0",
+      "hashPath": "system.io.4.3.0.nupkg.sha512"
+    },
+    "System.IO.FileSystem/4.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-IBErlVq5jOggAD69bg1t0pJcHaDbJbWNUZTPI96fkYWzwYbN6D9wRHMULLDd9dHsl7C2YsxXL31LMfPI1SWt8w==",
+      "path": "system.io.filesystem/4.0.1",
+      "hashPath": "system.io.filesystem.4.0.1.nupkg.sha512"
+    },
+    "System.IO.FileSystem.Primitives/4.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kWkKD203JJKxJeE74p8aF8y4Qc9r9WQx4C0cHzHPrY3fv/L/IhWnyCHaFJ3H1QPOH6A93whlQ2vG5nHlBDvzWQ==",
+      "path": "system.io.filesystem.primitives/4.0.1",
+      "hashPath": "system.io.filesystem.primitives.4.0.1.nupkg.sha512"
+    },
+    "System.Linq/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-5DbqIUpsDp0dFftytzuMmc0oeMdQwjcP/EWxsksIz/w1TcFRkZ3yKKz0PqiYFMmEwPSWw+qNVqD7PJ889JzHbw==",
+      "path": "system.linq/4.3.0",
+      "hashPath": "system.linq.4.3.0.nupkg.sha512"
+    },
+    "System.Linq.Expressions/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-PGKkrd2khG4CnlyJwxwwaWWiSiWFNBGlgXvJpeO0xCXrZ89ODrQ6tjEWS/kOqZ8GwEOUATtKtzp1eRgmYNfclg==",
+      "path": "system.linq.expressions/4.3.0",
+      "hashPath": "system.linq.expressions.4.3.0.nupkg.sha512"
+    },
+    "System.Linq.Queryable/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-XeuhzDnMp4nqUkeW4c5ILsKQk4+15RVaHm8LQdKWiGqIAgC12y2vuJUkkNhqjqi3K6LNmV9tzEfAZrarwWMsKA==",
+      "path": "system.linq.queryable/4.3.0",
+      "hashPath": "system.linq.queryable.4.3.0.nupkg.sha512"
+    },
+    "System.ObjectModel/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-bdX+80eKv9bN6K4N+d77OankKHGn6CH711a6fcOpMQu2Fckp/Ft4L/kW9WznHpyR0NRAvJutzOMHNNlBGvxQzQ==",
+      "path": "system.objectmodel/4.3.0",
+      "hashPath": "system.objectmodel.4.3.0.nupkg.sha512"
+    },
+    "System.Reflection/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-KMiAFoW7MfJGa9nDFNcfu+FpEdiHpWgTcS2HdMpDvt9saK3y/G4GwprPyzqjFH9NTaGPQeWNHU+iDlDILj96aQ==",
+      "path": "system.reflection/4.3.0",
+      "hashPath": "system.reflection.4.3.0.nupkg.sha512"
+    },
+    "System.Reflection.Emit/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-228FG0jLcIwTVJyz8CLFKueVqQK36ANazUManGaJHkO0icjiIypKW7YLWLIWahyIkdh5M7mV2dJepllLyA1SKg==",
+      "path": "system.reflection.emit/4.3.0",
+      "hashPath": "system.reflection.emit.4.3.0.nupkg.sha512"
+    },
+    "System.Reflection.Emit.ILGeneration/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-59tBslAk9733NXLrUJrwNZEzbMAcu8k344OYo+wfSVygcgZ9lgBdGIzH/nrg3LYhXceynyvTc8t5/GD4Ri0/ng==",
+      "path": "system.reflection.emit.ilgeneration/4.3.0",
+      "hashPath": "system.reflection.emit.ilgeneration.4.3.0.nupkg.sha512"
+    },
+    "System.Reflection.Emit.Lightweight/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-oadVHGSMsTmZsAF864QYN1t1QzZjIcuKU3l2S9cZOwDdDueNTrqq1yRj7koFfIGEnKpt6NjpL3rOzRhs4ryOgA==",
+      "path": "system.reflection.emit.lightweight/4.3.0",
+      "hashPath": "system.reflection.emit.lightweight.4.3.0.nupkg.sha512"
+    },
+    "System.Reflection.Extensions/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-rJkrJD3kBI5B712aRu4DpSIiHRtr6QlfZSQsb0hYHrDCZORXCFjQfoipo2LaMUHoT9i1B7j7MnfaEKWDFmFQNQ==",
+      "path": "system.reflection.extensions/4.3.0",
+      "hashPath": "system.reflection.extensions.4.3.0.nupkg.sha512"
+    },
+    "System.Reflection.Primitives/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-5RXItQz5As4xN2/YUDxdpsEkMhvw3e6aNveFXUn4Hl/udNTCNhnKp8lT9fnc3MhvGKh1baak5CovpuQUXHAlIA==",
+      "path": "system.reflection.primitives/4.3.0",
+      "hashPath": "system.reflection.primitives.4.3.0.nupkg.sha512"
+    },
+    "System.Reflection.TypeExtensions/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-7u6ulLcZbyxB5Gq0nMkQttcdBTx57ibzw+4IOXEfR+sXYQoHvjW5LTLyNr8O22UIMrqYbchJQJnos4eooYzYJA==",
+      "path": "system.reflection.typeextensions/4.3.0",
+      "hashPath": "system.reflection.typeextensions.4.3.0.nupkg.sha512"
+    },
+    "System.Resources.ResourceManager/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/zrcPkkWdZmI4F92gL/TPumP98AVDu/Wxr3CSJGQQ+XN6wbRZcyfSKVoPo17ilb3iOr0cCRqJInGwNMolqhS8A==",
+      "path": "system.resources.resourcemanager/4.3.0",
+      "hashPath": "system.resources.resourcemanager.4.3.0.nupkg.sha512"
+    },
+    "System.Runtime/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-JufQi0vPQ0xGnAczR13AUFglDyVYt4Kqnz1AZaiKZ5+GICq0/1MH/mO/eAJHt/mHW1zjKBJd7kV26SrxddAhiw==",
+      "path": "system.runtime/4.3.0",
+      "hashPath": "system.runtime.4.3.0.nupkg.sha512"
+    },
+    "System.Runtime.CompilerServices.Unsafe/4.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-oXzVVwwsT4sfWRzOEKaHn6GLleNZ7gGTjk+gHgLuXj3M61p3TjoAvWmZDJDeDuf0WX8UW4ew0MTJbJOmCSZrVA==",
+      "path": "system.runtime.compilerservices.unsafe/4.4.0",
+      "hashPath": "system.runtime.compilerservices.unsafe.4.4.0.nupkg.sha512"
+    },
+    "System.Runtime.Extensions/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-guW0uK0fn5fcJJ1tJVXYd7/1h5F+pea1r7FLSOz/f8vPEqbR2ZAknuRDvTQ8PzAilDveOxNjSfr0CHfIQfFk8g==",
+      "path": "system.runtime.extensions/4.3.0",
+      "hashPath": "system.runtime.extensions.4.3.0.nupkg.sha512"
+    },
+    "System.Runtime.Handles/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-OKiSUN7DmTWeYb3l51A7EYaeNMnvxwE249YtZz7yooT4gOZhmTjIn48KgSsw2k2lYdLgTKNJw/ZIfSElwDRVgg==",
+      "path": "system.runtime.handles/4.3.0",
+      "hashPath": "system.runtime.handles.4.3.0.nupkg.sha512"
+    },
+    "System.Runtime.InteropServices/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-uv1ynXqiMK8mp1GM3jDqPCFN66eJ5w5XNomaK2XD+TuCroNTLFGeZ+WCmBMcBDyTFKou3P6cR6J/QsaqDp7fGQ==",
+      "path": "system.runtime.interopservices/4.3.0",
+      "hashPath": "system.runtime.interopservices.4.3.0.nupkg.sha512"
+    },
+    "System.Runtime.InteropServices.RuntimeInformation/4.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-hWPhJxc453RCa8Z29O91EmfGeZIHX1ZH2A8L6lYQVSaKzku2DfArSfMEb1/MYYzPQRJZeu0c9dmYeJKxW5Fgng==",
+      "path": "system.runtime.interopservices.runtimeinformation/4.0.0",
+      "hashPath": "system.runtime.interopservices.runtimeinformation.4.0.0.nupkg.sha512"
+    },
+    "System.Runtime.Loader/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-yv5kB/tandjJWWGLn7SA+e4ZU/QoVwUxI9FwaNr+qOoUnwLQLRdXR1pS8DyFhLd4nKM5IKfsye0AhPvrJAVGkw==",
+      "path": "system.runtime.loader/4.3.0",
+      "hashPath": "system.runtime.loader.4.3.0.nupkg.sha512"
+    },
+    "System.Security.Claims/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-P/+BR/2lnc4PNDHt/TPBAWHVMLMRHsyYZbU1NphW4HIWzCggz8mJbTQQ3MKljFE7LS3WagmVFuBgoLcFzYXlkA==",
+      "path": "system.security.claims/4.3.0",
+      "hashPath": "system.security.claims.4.3.0.nupkg.sha512"
+    },
+    "System.Security.Principal/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-I1tkfQlAoMM2URscUtpcRo/hX0jinXx6a/KUtEQoz3owaYwl3qwsO8cbzYVVnjxrzxjHo3nJC+62uolgeGIS9A==",
+      "path": "system.security.principal/4.3.0",
+      "hashPath": "system.security.principal.4.3.0.nupkg.sha512"
+    },
+    "System.Text.Encoding/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-BiIg+KWaSDOITze6jGQynxg64naAPtqGHBwDrLaCtixsa5bKiR8dpPOHA7ge3C0JJQizJE+sfkz1wV+BAKAYZw==",
+      "path": "system.text.encoding/4.3.0",
+      "hashPath": "system.text.encoding.4.3.0.nupkg.sha512"
+    },
+    "System.Threading/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-VkUS0kOBcUf3Wwm0TSbrevDDZ6BlM+b/HRiapRFWjM5O0NS0LviG0glKmFK+hhPDd1XFeSdU1GmlLhb2CoVpIw==",
+      "path": "system.threading/4.3.0",
+      "hashPath": "system.threading.4.3.0.nupkg.sha512"
+    },
+    "System.Threading.Tasks/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-LbSxKEdOUhVe8BezB/9uOGGppt+nZf6e1VFyw6v3DN6lqitm0OSn2uXMOdtP0M3W4iMcqcivm2J6UgqiwwnXiA==",
+      "path": "system.threading.tasks/4.3.0",
+      "hashPath": "system.threading.tasks.4.3.0.nupkg.sha512"
+    },
+    "System.Threading.Tasks.Parallel/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-cbjBNZHf/vQCfcdhzx7knsiygoCKgxL8mZOeocXZn5gWhCdzHIq6bYNKWX0LAJCWYP7bds4yBK8p06YkP0oa0g==",
+      "path": "system.threading.tasks.parallel/4.3.0",
+      "hashPath": "system.threading.tasks.parallel.4.3.0.nupkg.sha512"
+    },
+    "System.Threading.Thread/4.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Tlo/QJ5w4UhgO7Abxz3k9LL/nfQ9/2ioc88cQIMOjNhzK1QGJvvH+A6w5Sx+u99D6lgR+1Nj1YZ9/lknR963kQ==",
+      "path": "system.threading.thread/4.0.0",
+      "hashPath": "system.threading.thread.4.0.0.nupkg.sha512"
+    },
+    "System.Threading.ThreadPool/4.0.10": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pA0DnoJ59NlilSdLLwPLKECkTaVF4lbPSM70UqdJQgzJ0r3UHthhlN1T4TmrN6uiXDwPcc2+rI4+5FGtMCdj3g==",
+      "path": "system.threading.threadpool/4.0.10",
+      "hashPath": "system.threading.threadpool.4.0.10.nupkg.sha512"
+    },
+    "Concepts/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Events/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

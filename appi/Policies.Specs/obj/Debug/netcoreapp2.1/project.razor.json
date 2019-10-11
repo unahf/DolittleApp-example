@@ -1,0 +1,14 @@
+{
+  "ProjectFilePath": "/Users/woksin/Documents/Dolittle/Boilerplates/BoundedContext.CSharp/Content/Policies.Specs/Policies.Specs.csproj",
+  "TargetFramework": "netcoreapp2.1",
+  "TagHelpers": [],
+  "Configuration": {
+    "ConfigurationName": "UnsupportedRazor",
+    "LanguageVersion": "1.0",
+    "Extensions": [
+      {
+        "ExtensionName": "UnsupportedRazorExtension"
+      }
+    ]
+  }
+}

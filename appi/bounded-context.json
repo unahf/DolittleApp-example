@@ -1,0 +1,26 @@
+{
+    "application": "e39369cf-8c58-fb3d-27c2-ec425db85282",
+    "boundedContext": "0a187350-e086-78d3-c7b3-080569afb493",
+    "boundedContextName": "appi",
+    "resources": {
+        "readModels": {
+            "development": "MongoDB",
+            "production": "MongoDB"
+        },
+        "eventStore": {
+            "development": "MongoDB",
+            "production": "MongoDB"
+        }
+    },
+    "core": {
+        "language": "csharp"
+    },
+    "interaction": [
+        {
+            "type": "interaction",
+            "language": "javascript",
+            "framework": "react",
+            "entryPoint": "Web"
+        }
+    ]
+}

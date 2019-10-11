@@ -1,0 +1,11 @@
+/Users/woksin/Documents/Dolittle/Boilerplates/CSharp.BoundedContext/Content/Events/bin/Debug/netstandard2.0/Events.deps.json
+/Users/woksin/Documents/Dolittle/Boilerplates/CSharp.BoundedContext/Content/Events/bin/Debug/netstandard2.0/Events.dll
+/Users/woksin/Documents/Dolittle/Boilerplates/CSharp.BoundedContext/Content/Events/bin/Debug/netstandard2.0/Events.pdb
+/Users/woksin/Documents/Dolittle/Boilerplates/CSharp.BoundedContext/Content/Events/bin/Debug/netstandard2.0/Events.xml
+/Users/woksin/Documents/Dolittle/Boilerplates/CSharp.BoundedContext/Content/Events/obj/Debug/netstandard2.0/Events.csprojAssemblyReference.cache
+/Users/woksin/Documents/Dolittle/Boilerplates/CSharp.BoundedContext/Content/Events/obj/Debug/netstandard2.0/Events.csproj.CoreCompileInputs.cache
+/Users/woksin/Documents/Dolittle/Boilerplates/CSharp.BoundedContext/Content/Events/obj/Debug/netstandard2.0/Events.AssemblyInfoInputs.cache
+/Users/woksin/Documents/Dolittle/Boilerplates/CSharp.BoundedContext/Content/Events/obj/Debug/netstandard2.0/Events.AssemblyInfo.cs
+/Users/woksin/Documents/Dolittle/Boilerplates/CSharp.BoundedContext/Content/Events/obj/Debug/netstandard2.0/Events.dll
+/Users/woksin/Documents/Dolittle/Boilerplates/CSharp.BoundedContext/Content/Events/obj/Debug/netstandard2.0/Events.xml
+/Users/woksin/Documents/Dolittle/Boilerplates/CSharp.BoundedContext/Content/Events/obj/Debug/netstandard2.0/Events.pdb
